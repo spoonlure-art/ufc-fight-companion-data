@@ -1,0 +1,40 @@
+name: Owner-approved publication
+on:
+  workflow_dispatch:
+    inputs:
+      draft:
+        description: 'Verified draft path (drafts/name.json)'
+        required: true
+      approved_sha256:
+        description: 'Exact SHA-256 of the draft explicitly approved by the owner'
+        required: true
+permissions:
+  contents: read
+concurrency:
+  group: central-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.actor == github.repository_owner && github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Validate tools
+        run: python -m unittest discover -s tools -p 'test_*.py' -v
+      - name: Prepare the exact owner-approved version
+        env:
+          DRAFT_PATH: ${{ inputs.draft }}
+          APPROVED_SHA: ${{ inputs.approved_sha256 }}
+        run: python tools/prepare_publication.py --draft "$DRAFT_PATH" --approved-sha "$APPROVED_SHA"
+      - name: Commit immutable publication and manifest together
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add events/ manifest.json
+          git commit -m 'Publish exact owner-approved event revision'
+          git push origin HEAD:main
