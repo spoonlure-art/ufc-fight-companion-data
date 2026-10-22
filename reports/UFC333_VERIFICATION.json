@@ -1,0 +1,2814 @@
+{
+  "checkedAt": "2026-10-23",
+  "status": "DRAFT_NOT_APPROVED",
+  "methodology": "Sherdog professional profiles compared with original draft. UFC official search results corroborate selected fields and historical headliners. ESPN full pages blocked by anti-bot check. MATCHED_ONE_SOURCE does not mean owner approval or full ESPN verification. Nationality is not inferred from birthplace or fighting location.",
+  "fighters": [
+    {
+      "fighterId": "1a",
+      "name": "Iasmin Lucindo",
+      "source": "https://www.sherdog.com/fighter/Iasmin-Lucindo-264861",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 18,
+          "sourceValue": 18
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 6,
+          "sourceValue": 6
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 8,
+            "submission": 3,
+            "decision": 7,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 8,
+            "submission": 3,
+            "decision": 7,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 24
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Brazil",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Angela Hill",
+            "event": "UFC on ESPN 72 - Dolidze vs. Hernandez",
+            "date": "Aug / 09 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Roman Dolidze vs Anthony Hernandez",
+          "source": "https://www.ufc.com/event/ufc-fight-night-august-09-2025"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Amanda Lemos",
+            "event": "UFC 313 - Pereira vs. Ankalaev",
+            "date": "Mar / 08 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Magomed Ankalaev vs Alex Pereira",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "1b",
+      "name": "Nicolle Caliari",
+      "source": "https://www.sherdog.com/fighter/Nicolle-Caliari-202195",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 9,
+          "sourceValue": 9
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 4,
+          "sourceValue": 4
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 5,
+            "submission": 4,
+            "decision": 0,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 5,
+            "submission": 4,
+            "decision": 0,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 29
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Brazil",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Shauna Bannon",
+            "event": "UFC Fight Night 276 - Allen vs. Costa",
+            "date": "May / 16 / 2026",
+            "method": "Submission (Arm-Triangle Choke)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Arnold Allen vs Melquizael Costa",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Carli Judice",
+            "event": "UFC 318 - Holloway vs. Poirier 3",
+            "date": "Jul / 19 / 2025",
+            "method": "TKO (Knee to the Body and Punches)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Max Holloway vs Dustin Poirier",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "2a",
+      "name": "Kody Steele",
+      "source": "https://www.sherdog.com/fighter/Kody-Steele-392962",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 8,
+          "sourceValue": 8
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 1,
+          "sourceValue": 1
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 4,
+            "submission": 2,
+            "decision": 2,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 4,
+            "submission": 2,
+            "decision": 2,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 31
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "United States",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Dom Mar Fan",
+            "event": "UFC Fight Night 275 - Della Maddalena vs. Prates",
+            "date": "May / 02 / 2026",
+            "method": "Submission (Inverted Heel Hook)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Jack Della Maddalena vs Carlos Prates",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Zhu Rong",
+            "event": "UFC 312 - Du Plessis vs. Strickland 2",
+            "date": "Feb / 08 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Dricus Du Plessis vs Sean Strickland",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "2b",
+      "name": "Noah Gugnon",
+      "source": "https://www.sherdog.com/fighter/Noah-Gugnon-236171",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 10,
+          "sourceValue": 10
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 2,
+          "sourceValue": 2
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 6,
+            "submission": 4,
+            "decision": 0,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 6,
+            "submission": 4,
+            "decision": 0,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MISMATCH",
+          "draft": 25,
+          "sourceValue": 26
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "France",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Milos Janicic",
+            "event": "UFC Fight Night 283 - Medic vs. Rodriguez",
+            "date": "Aug / 01 / 2026",
+            "method": "Submission (Rear-Naked Choke)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Uroš Medić vs Daniel Rodriguez",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Bruno Matos de Sousa",
+            "event": "Ares 39 - Jbalia vs. Diatta",
+            "date": "Apr / 03 / 2026",
+            "method": "TKO (Elbows and Punches)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Jbalia vs Diatta",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": [
+        "Age proposal: 25 -> 26 from profile; not a birth-date-derived age model"
+      ]
+    },
+    {
+      "fighterId": "3a",
+      "name": "Bolaji Oki",
+      "source": "https://www.sherdog.com/fighter/Bolaji-Oki-276669",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 10,
+          "sourceValue": 10
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 4,
+          "sourceValue": 4
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 5,
+            "submission": 1,
+            "decision": 4,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 5,
+            "submission": 1,
+            "decision": 4,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 30
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Belgium",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Manoel Sousa",
+            "event": "UFC Fight Night 269 - Emmett vs. Vallejos",
+            "date": "Mar / 14 / 2026",
+            "method": "KO (Punch)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Josh Emmett vs Kevin Vallejos",
+          "source": "https://www.ufc.com/event/ufc-fight-night-march-14-2026"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Mason Jones",
+            "event": "UFC Fight Night 258 - Imavov vs. Borralho",
+            "date": "Sep / 06 / 2025",
+            "method": "TKO (Elbows)",
+            "round": 2
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Nassourdine Imavov vs Caio Borralho",
+          "source": "https://www.ufc.com/event/ufc-fight-night-september-06-2025"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "3b",
+      "name": "Daniel Santos",
+      "source": "https://www.sherdog.com/fighter/Daniel-Santos-144395",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 14,
+          "sourceValue": 14
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 3,
+          "sourceValue": 3
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 7,
+            "submission": 2,
+            "decision": 5,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 7,
+            "submission": 2,
+            "decision": 5,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 31
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Brazil",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Doo Ho Choi",
+            "event": "UFC Fight Night 276 - Allen vs. Costa",
+            "date": "May / 16 / 2026",
+            "method": "TKO (Punches)",
+            "round": 2
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Arnold Allen vs Melquizael Costa",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Joo Sang Yoo",
+            "event": "UFC 320 - Ankalaev vs. Pereira 2",
+            "date": "Oct / 04 / 2025",
+            "method": "TKO (Punches)",
+            "round": 2
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Magomed Ankalaev vs Alex Pereira",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "4a",
+      "name": "Abubakar Vagaev",
+      "source": "https://www.sherdog.com/fighter/Abubakar-Vagaev-171149",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 25,
+          "sourceValue": 25
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 4,
+          "sourceValue": 4
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 4,
+            "submission": 1,
+            "decision": 20,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 4,
+            "submission": 1,
+            "decision": 20,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 33
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Russia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Saygid Izagakhmaev",
+            "event": "UFC Fight Night 282 - Ankalaev vs. Guskov",
+            "date": "Jul / 25 / 2026",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Magomed Ankalaev vs Bogdan Guskov",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Albert Tumenov",
+            "event": "ACA 183 - Tumenov vs. Vagaev",
+            "date": "Feb / 08 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 5
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Albert Tumenov vs Abubakar Vagaev",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "4b",
+      "name": "Jacob Malkoun",
+      "source": "https://www.sherdog.com/fighter/Jacob-Malkoun-204645",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 10,
+          "sourceValue": 10
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 3,
+          "sourceValue": 3
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 3,
+            "submission": 0,
+            "decision": 7,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 3,
+            "submission": 0,
+            "decision": 7,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 31
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Australia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Gerald Meerschaert",
+            "event": "UFC Fight Night 275 - Della Maddalena vs. Prates",
+            "date": "May / 02 / 2026",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Jack Della Maddalena vs Carlos Prates",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Torrez Finney",
+            "event": "UFC 325 - Volkanovski vs. Lopes 2",
+            "date": "Jan / 31 / 2026",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Alexander Volkanovski vs Diego Lopes",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "5a",
+      "name": "Colby Thicknesse",
+      "source": "https://www.sherdog.com/fighter/Colby-Thicknesse-285257",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 9,
+          "sourceValue": 9
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 1,
+          "sourceValue": 1
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 2,
+            "submission": 2,
+            "decision": 5,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 2,
+            "submission": 2,
+            "decision": 5,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 27
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Australia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Vince Morales",
+            "event": "UFC Fight Night 275 - Della Maddalena vs. Prates",
+            "date": "May / 02 / 2026",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Jack Della Maddalena vs Carlos Prates",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Josias Musasa",
+            "event": "UFC Fight Night 260 - Ulberg vs. Reyes",
+            "date": "Sep / 27 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Carlos Ulberg vs Dominick Reyes",
+          "source": "https://www.ufc.com/event/ufc-fight-night-september-27-2025"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "5b",
+      "name": "Asaf Chopurov",
+      "source": "https://www.sherdog.com/fighter/Asaf-Chopurov-399679",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 11,
+          "sourceValue": 11
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 5,
+            "submission": 5,
+            "decision": 1,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 5,
+            "submission": 5,
+            "decision": 1,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 24
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Reece McLaren",
+            "event": "UAE Warriors 72 - Chopurov vs. McLaren",
+            "date": "Jul / 23 / 2026",
+            "method": "KO (Punch)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Asaf Chopurov vs Reece McLaren",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Adriano Ramos",
+            "event": "UAE Warriors 69 - Chopurov vs. Ramos",
+            "date": "Mar / 28 / 2026",
+            "method": "Submission (Rear-Naked Choke)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Asaf Chopurov vs Adriano Ramos",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "6a",
+      "name": "Grant Dawson",
+      "source": "https://www.sherdog.com/fighter/Grant-Dawson-103525",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 24,
+          "sourceValue": 24
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 3,
+          "sourceValue": 3
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 1,
+          "sourceValue": 1
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 5,
+            "submission": 14,
+            "decision": 5,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 5,
+            "submission": 14,
+            "decision": 5,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 32
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "United States",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Mateusz Rebecki",
+            "event": "UFC 328 - Chimaev vs. Strickland",
+            "date": "May / 09 / 2026",
+            "method": "Submission (Rear-Naked Choke)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Khamzat Chimaev vs Sean Strickland",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Manuel Torres",
+            "event": "UFC 323 - Dvalishvili vs. Yan 2",
+            "date": "Dec / 06 / 2025",
+            "method": "TKO (Punches)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Merab Dvalishvili vs Petr Yan",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "6b",
+      "name": "Nurullo Aliev",
+      "source": "https://www.sherdog.com/fighter/Nurullo-Aliev-274869",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 12,
+          "sourceValue": 12
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 2,
+            "submission": 0,
+            "decision": 10,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 2,
+            "submission": 0,
+            "decision": 10,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MISMATCH",
+          "draft": 25,
+          "sourceValue": 27
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Tajikistan",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Mike Davis",
+            "event": "UFC Fight Night 282 - Ankalaev vs. Guskov",
+            "date": "Jul / 25 / 2026",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Magomed Ankalaev vs Bogdan Guskov",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Shaqueme Rock",
+            "event": "UFC Fight Night 265 - Tsarukyan vs. Hooker",
+            "date": "Nov / 22 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Arman Tsarukyan vs Dan Hooker",
+          "source": "https://www.ufc.com/event/ufc-fight-night-november-22-2025"
+        }
+      },
+      "observations": [
+        "Age proposal: 25 -> 27 from profile; not a birth-date-derived age model"
+      ]
+    },
+    {
+      "fighterId": "7a",
+      "name": "Abus Magomedov",
+      "source": "https://www.sherdog.com/fighter/Abus-Magomedov-60755",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 29,
+          "sourceValue": 29
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 7,
+          "sourceValue": 7
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 1,
+          "sourceValue": 1
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 14,
+            "submission": 8,
+            "decision": 7,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 14,
+            "submission": 8,
+            "decision": 7,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 36
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Germany",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MISMATCH",
+          "checks": {
+            "opponentName": false,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Michal Oleksiejczuk",
+            "event": "UFC Fight Night 280 - Fiziev vs. Torres",
+            "date": "Jun / 27 / 2026",
+            "method": "Submission (Guillotine Choke)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Rafael Fiziev vs Manuel Torres",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Joe Pyfer",
+            "event": "UFC 320 - Ankalaev vs. Pereira 2",
+            "date": "Oct / 04 / 2025",
+            "method": "Submission (Face Crank)",
+            "round": 2
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Magomed Ankalaev vs Alex Pereira",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": [
+        "History #1 needs review; values preserved."
+      ]
+    },
+    {
+      "fighterId": "7b",
+      "name": "Cam Rowston",
+      "source": "https://www.sherdog.com/fighter/Cameron-Rowston-239381",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 15,
+          "sourceValue": 15
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 3,
+          "sourceValue": 3
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "CONFLICTING_SOURCES",
+          "draft": {
+            "koTko": 6,
+            "submission": 7,
+            "decision": 2,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 7,
+            "submission": 6,
+            "decision": 2,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 31
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Australia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Robert Bryczek",
+            "event": "UFC Fight Night 275 - Della Maddalena vs. Prates",
+            "date": "May / 02 / 2026",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Jack Della Maddalena vs Carlos Prates",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Cody Brundage",
+            "event": "UFC 325 - Volkanovski vs. Lopes 2",
+            "date": "Jan / 31 / 2026",
+            "method": "TKO (Punches)",
+            "round": 2
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Alexander Volkanovski vs Diego Lopes",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": [
+        "Victory method classification differs between UFC and Sherdog; retained original values and marked unresolved."
+      ]
+    },
+    {
+      "fighterId": "8a",
+      "name": "Nikita Krylov",
+      "source": "https://www.sherdog.com/fighter/Nikita-Krylov-110937",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 31,
+          "sourceValue": 31
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 12,
+          "sourceValue": 12
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 13,
+            "submission": 16,
+            "decision": 2,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 13,
+            "submission": 16,
+            "decision": 2,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 34
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Robert Whittaker",
+            "event": "UFC 329 - McGregor vs. Holloway 2",
+            "date": "Jul / 11 / 2026",
+            "method": "TKO (Jaw Injury)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Conor McGregor vs Max Holloway",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Modestas Bukauskas",
+            "event": "UFC 324 - Gaethje vs. Pimblett",
+            "date": "Jan / 24 / 2026",
+            "method": "KO (Punches)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Justin Gaethje vs Paddy Pimblett",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "8b",
+      "name": "Abdul Rakhman Yakhyaev",
+      "source": "https://www.sherdog.com/fighter/AbdulRakhman-Yakhyaev-395509",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 10,
+          "sourceValue": 10
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 4,
+            "submission": 5,
+            "decision": 1,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 4,
+            "submission": 5,
+            "decision": 1,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 25
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Russia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Julius Walker",
+            "event": "UFC Fight Night 280 - Fiziev vs. Torres",
+            "date": "Jun / 27 / 2026",
+            "method": "KO (Punches)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Rafael Fiziev vs Manuel Torres",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Brendson Ribeiro",
+            "event": "UFC Fight Night 272 - Moicano vs. Duncan",
+            "date": "Apr / 04 / 2026",
+            "method": "Submission (Rear-Naked Choke)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Renato Moicano vs Chris Duncan",
+          "source": "https://www.ufc.com/news/ufc-fight-night-moicano-vs-duncan-official-scorecards-judges"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "9a",
+      "name": "Azamat Murzakanov",
+      "source": "https://www.sherdog.com/fighter/Azamat-Murzakanov-60203",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 16,
+          "sourceValue": 16
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 1,
+          "sourceValue": 1
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 12,
+            "submission": 1,
+            "decision": 3,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 12,
+            "submission": 1,
+            "decision": 3,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 37
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Russia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Paulo Costa",
+            "event": "UFC 327 - Prochazka vs. Ulberg",
+            "date": "Apr / 11 / 2026",
+            "method": "TKO (Head Kick)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Jiří Procházka vs Carlos Ulberg",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Aleksandar Rakic",
+            "event": "UFC 321 - Aspinall vs. Gane",
+            "date": "Oct / 25 / 2025",
+            "method": "TKO (Punches)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Tom Aspinall vs Ciryl Gane",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "9b",
+      "name": "Dominick Reyes",
+      "source": "https://www.sherdog.com/fighter/Dominick-Reyes-145941",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 16,
+          "sourceValue": 16
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 5,
+          "sourceValue": 5
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 10,
+            "submission": 2,
+            "decision": 4,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 10,
+            "submission": 2,
+            "decision": 4,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 36
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "United States",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Johnny Walker",
+            "event": "UFC 327 - Prochazka vs. Ulberg",
+            "date": "Apr / 11 / 2026",
+            "method": "Decision (Split)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Jiří Procházka vs Carlos Ulberg",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Carlos Ulberg",
+            "event": "UFC Fight Night 260 - Ulberg vs. Reyes",
+            "date": "Sep / 27 / 2025",
+            "method": "KO (Punches)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Carlos Ulberg vs Dominick Reyes",
+          "source": "https://www.ufc.com/event/ufc-fight-night-september-27-2025"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "10a",
+      "name": "Aaron Pico",
+      "source": "https://www.sherdog.com/fighter/Aaron-Pico-191127",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 14,
+          "sourceValue": 14
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 5,
+          "sourceValue": 5
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 9,
+            "submission": 2,
+            "decision": 3,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 9,
+            "submission": 2,
+            "decision": 3,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MISMATCH",
+          "draft": 29,
+          "sourceValue": 30
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "United States",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Patricio Freire",
+            "event": "UFC 327 - Prochazka vs. Ulberg",
+            "date": "Apr / 11 / 2026",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Jiří Procházka vs Carlos Ulberg",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Lerone Murphy",
+            "event": "UFC 319 - Du Plessis vs. Chimaev",
+            "date": "Aug / 16 / 2025",
+            "method": "KO (Spinning Back Elbow)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Dricus Du Plessis vs Khamzat Chimaev",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": [
+        "Age proposal: 29 -> 30 from profile; not a birth-date-derived age model"
+      ]
+    },
+    {
+      "fighterId": "10b",
+      "name": "Losene Keita",
+      "source": "https://www.sherdog.com/fighter/Losene-Keita-287481",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 17,
+          "sourceValue": 17
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 2,
+          "sourceValue": 2
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 11,
+            "submission": 0,
+            "decision": 6,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 11,
+            "submission": 0,
+            "decision": 6,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 28
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Belgium",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Muhammadjon Naimov",
+            "event": "UFC Fight Night 287 - Hooker vs. Parnasse",
+            "date": "Sep / 05 / 2026",
+            "method": "KO (Punch)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Dan Hooker vs Salahdine Parnasse",
+          "source": "https://www.ufc.com/news/ufc-paris-results-hooker-vs-parnasse"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Nathaniel Wood",
+            "event": "UFC Fight Night 270 - Evloev vs. Murphy",
+            "date": "Mar / 21 / 2026",
+            "method": "Decision (Split)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Movsar Evloev vs Lerone Murphy",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "11a",
+      "name": "Alexander Volkov",
+      "source": "https://www.sherdog.com/fighter/Alexander-Volkov-40951",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 40,
+          "sourceValue": 40
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 11,
+          "sourceValue": 11
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 24,
+            "submission": 4,
+            "decision": 12,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 24,
+            "submission": 4,
+            "decision": 12,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 37
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Russia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Waldo Cortes-Acosta",
+            "event": "UFC 328 - Chimaev vs. Strickland",
+            "date": "May / 09 / 2026",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Khamzat Chimaev vs Sean Strickland",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Jailton Almeida",
+            "event": "UFC 321 - Aspinall vs. Gane",
+            "date": "Oct / 25 / 2025",
+            "method": "Decision (Split)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Tom Aspinall vs Ciryl Gane",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "11b",
+      "name": "Rizvan Kuniev",
+      "source": "https://www.sherdog.com/fighter/Rizvan-Kuniev-86319",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 14,
+          "sourceValue": 14
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 3,
+          "sourceValue": 3
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 1,
+          "sourceValue": 1
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 1,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "CONFLICTING_SOURCES",
+          "draft": {
+            "koTko": 7,
+            "submission": 2,
+            "decision": 5,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 7,
+            "submission": 2,
+            "decision": 4,
+            "other": 1
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 34
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Russia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Tyrell Fortune",
+            "event": "UFC Fight Night 282 - Ankalaev vs. Guskov",
+            "date": "Jul / 25 / 2026",
+            "method": "TKO (Knees)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Magomed Ankalaev vs Bogdan Guskov",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Jailton Almeida",
+            "event": "UFC Fight Night 266 - Bautista vs. Oliveira",
+            "date": "Feb / 07 / 2026",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Mario Bautista vs Vinicius Oliveira",
+          "source": "https://www.ufc.com/event/ufc-fight-night-february-07-2026?page=1"
+        }
+      },
+      "observations": [
+        "Victory method classification differs between UFC and Sherdog; retained original values and marked unresolved."
+      ]
+    },
+    {
+      "fighterId": "12a",
+      "name": "Lone’er Kavanagh",
+      "source": "https://www.sherdog.com/fighter/Loneer-Kavanagh-213249",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 10,
+          "sourceValue": 10
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 2,
+          "sourceValue": 2
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 4,
+            "submission": 1,
+            "decision": 5,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 4,
+            "submission": 1,
+            "decision": 5,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 27
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "England",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Brandon Royval",
+            "event": "UFC 329 - McGregor vs. Holloway 2",
+            "date": "Jul / 11 / 2026",
+            "method": "Submission (Rear-Naked Choke)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Conor McGregor vs Max Holloway",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Brandon Moreno",
+            "event": "UFC Fight Night 268 - Moreno vs. Kavanagh",
+            "date": "Feb / 28 / 2026",
+            "method": "Decision (Unanimous)",
+            "round": 5
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Brandon Moreno vs Lone’er Kavanagh",
+          "source": "https://www.ufc.com/event/ufc-fight-night-february-28-2026"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "12b",
+      "name": "Ramazan Temirov",
+      "source": "https://www.sherdog.com/fighter/Ramazonbek-Temirov-215649",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 20,
+          "sourceValue": 20
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 3,
+          "sourceValue": 3
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 12,
+            "submission": 1,
+            "decision": 7,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 12,
+            "submission": 1,
+            "decision": 7,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 29
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Uzbekistan",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Steve Erceg",
+            "event": "UFC Fight Night 282 - Ankalaev vs. Guskov",
+            "date": "Jul / 25 / 2026",
+            "method": "KO (Punch)",
+            "round": 1
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Magomed Ankalaev vs Bogdan Guskov",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Charles Johnson",
+            "event": "UFC Fight Night 253 - Kape vs. Almabayev",
+            "date": "Mar / 01 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Manel Kape vs Asu Almabayev",
+          "source": "https://www.ufc.com/event/ufc-fight-night-march-01-2025"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "13a",
+      "name": "Petr Yan",
+      "source": "https://www.sherdog.com/fighter/Petr-Yan-186873",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 20,
+          "sourceValue": 20
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 5,
+          "sourceValue": 5
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 7,
+            "submission": 1,
+            "decision": 12,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 7,
+            "submission": 1,
+            "decision": 12,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 33
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Russia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Merab Dvalishvili",
+            "event": "UFC 323 - Dvalishvili vs. Yan 2",
+            "date": "Dec / 06 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 5
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Merab Dvalishvili vs Petr Yan",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Marcus McGhee",
+            "event": "UFC on ABC 9 - Whittaker vs. de Ridder",
+            "date": "Jul / 26 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "CORROBORATED_OFFICIAL",
+          "proposal": "Robert Whittaker vs Reinier de Ridder",
+          "source": "https://www.ufc.com/news/official-judges-scorecards-ufc-fight-night-whittaker-vs-de-ridder-abu-dhabi"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "13b",
+      "name": "Merab Dvalishvili",
+      "source": "https://www.sherdog.com/fighter/Merab-Dvalishvili-157355",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 21,
+          "sourceValue": 21
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 5,
+          "sourceValue": 5
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 3,
+            "submission": 2,
+            "decision": 16,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 3,
+            "submission": 2,
+            "decision": 16,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 35
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Georgia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "loss",
+            "opponent": "Petr Yan",
+            "event": "UFC 323 - Dvalishvili vs. Yan 2",
+            "date": "Dec / 06 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 5
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Merab Dvalishvili vs Petr Yan",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Cory Sandhagen",
+            "event": "UFC 320 - Ankalaev vs. Pereira 2",
+            "date": "Oct / 04 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 5
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Magomed Ankalaev vs Alex Pereira",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "14a",
+      "name": "Alexander Volkanovski",
+      "source": "https://www.sherdog.com/fighter/Alexander-Volkanovski-101527",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 28,
+          "sourceValue": 28
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 4,
+          "sourceValue": 4
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 13,
+            "submission": 3,
+            "decision": 12,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 13,
+            "submission": 3,
+            "decision": 12,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 38
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Australia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Diego Lopes",
+            "event": "UFC 325 - Volkanovski vs. Lopes 2",
+            "date": "Jan / 31 / 2026",
+            "method": "Decision (Unanimous)",
+            "round": 5
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Alexander Volkanovski vs Diego Lopes",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Diego Lopes",
+            "event": "UFC 314 - Volkanovski vs. Lopes",
+            "date": "Apr / 12 / 2025",
+            "method": "Decision (Unanimous)",
+            "round": 5
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Alexander Volkanovski vs Diego Lopes",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    },
+    {
+      "fighterId": "14b",
+      "name": "Movsar Evloev",
+      "source": "https://www.sherdog.com/fighter/Movsar-Evloev-183539",
+      "fields": {
+        "record.wins": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 20,
+          "sourceValue": 20
+        },
+        "record.losses": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.draws": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": 0,
+          "sourceValue": 0
+        },
+        "record.noContests": {
+          "status": "UNVERIFIED",
+          "draft": 0,
+          "reason": "Not independently extracted from complete professional result classifications"
+        },
+        "victoryBreakdown": {
+          "status": "MATCHED_ONE_SOURCE",
+          "draft": {
+            "koTko": 3,
+            "submission": 4,
+            "decision": 13,
+            "other": 0
+          },
+          "sherdog": {
+            "koTko": 3,
+            "submission": 4,
+            "decision": 13,
+            "other": 0
+          }
+        },
+        "age": {
+          "status": "MATCHED_ONE_SOURCE",
+          "value": 32
+        },
+        "country": {
+          "status": "UNVERIFIED",
+          "value": "Russia",
+          "reason": "Country not inferred from profile birthplace/association"
+        },
+        "lastTwoFights.0": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Lerone Murphy",
+            "event": "UFC Fight Night 270 - Evloev vs. Murphy",
+            "date": "Mar / 21 / 2026",
+            "method": "Decision (Majority)",
+            "round": 5
+          }
+        },
+        "lastTwoFights.0.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Movsar Evloev vs Lerone Murphy",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        },
+        "lastTwoFights.1": {
+          "status": "MATCHED_ONE_SOURCE",
+          "checks": {
+            "opponentName": true,
+            "date": true,
+            "result": true,
+            "methodCategory": true,
+            "round": true
+          },
+          "sourceObservation": {
+            "result": "win",
+            "opponent": "Aljamain Sterling",
+            "event": "UFC 310 - Pantoja vs. Asakura",
+            "date": "Dec / 07 / 2024",
+            "method": "Decision (Unanimous)",
+            "round": 3
+          }
+        },
+        "lastTwoFights.1.eventHeadliners": {
+          "status": "UNVERIFIED_FULL_NAMES",
+          "value": "Alexandre Pantoja vs Kai Asakura",
+          "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
+        }
+      },
+      "observations": []
+    }
+  ],
+  "conflicts": [
+    {
+      "fighterId": "7b",
+      "name": "Cam Rowston",
+      "ufcValue": {
+        "koTko": 6,
+        "submission": 7,
+        "decision": 2,
+        "other": 0
+      },
+      "sherdogValue": {
+        "koTko": 7,
+        "submission": 6,
+        "decision": 2,
+        "other": 0
+      },
+      "ufcSource": "https://www.ufc.com/athlete/cam-rowston",
+      "sherdogSource": "https://www.sherdog.com/fighter/Cameron-Rowston-239381",
+      "resolution": "Unresolved. Retain UFC-aligned original values; owner/source policy review required."
+    },
+    {
+      "fighterId": "11b",
+      "name": "Rizvan Kuniev",
+      "ufcValue": {
+        "koTko": 7,
+        "submission": 2,
+        "decision": 5,
+        "other": 0
+      },
+      "sherdogValue": {
+        "koTko": 7,
+        "submission": 2,
+        "decision": 4,
+        "other": 1
+      },
+      "ufcSource": "https://www.ufc.com/athlete/rizvan-kuniev",
+      "sherdogSource": "https://www.sherdog.com/fighter/Rizvan-Kuniev-86319",
+      "resolution": "Unresolved. Retain UFC-aligned original values; owner/source policy review required."
+    }
+  ],
+  "technicalChanges": [
+    "Preserved original research draft unchanged",
+    "Normalized card types to EARLY_PRELIMS / PRELIMS / MAIN_CARD / CO_MAIN_EVENT / MAIN_EVENT",
+    "Filled all 12 missing historical headliner fields using official event sources",
+    "Updated profile age proposals for Noah Gugnon, Nurullo Aliev and Aaron Pico; see field report",
+    "Preserved source conflicts rather than choosing silently",
+    "Status remains DRAFT and isSampleData remains true; manifest unchanged"
+  ]
+}
