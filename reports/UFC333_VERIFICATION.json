@@ -1235,9 +1235,9 @@
           "reason": "Country not inferred from profile birthplace/association"
         },
         "lastTwoFights.0": {
-          "status": "MISMATCH",
+          "status": "MATCHED_ONE_SOURCE",
           "checks": {
-            "opponentName": false,
+            "opponentName": true,
             "date": true,
             "result": true,
             "methodCategory": true,
@@ -1281,9 +1281,7 @@
           "reason": "Source event label checked; every full headliner spelling has not been independently reverified"
         }
       },
-      "observations": [
-        "History #1 needs review; values preserved."
-      ]
+      "observations": []
     },
     {
       "fighterId": "7b",

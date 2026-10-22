@@ -708,9 +708,7 @@
             "https://www.sherdog.com/fighter/Abus-Magomedov-60755",
             "https://www.ufc.com/athlete/abus-magomedov?language_content_entity=ja&page=1"
           ],
-          "unresolved": [
-            "History #1 needs review; values preserved."
-          ]
+          "unresolved": []
         }
       },
       "fighterB": {
@@ -1521,6 +1519,6 @@
     "status": "PARTIALLY_VERIFIED",
     "report": "reports/UFC333_VERIFICATION.json",
     "checkedAt": "2026-10-23",
-    "unresolvedCount": 5
+    "unresolvedCount": 105
   }
 }

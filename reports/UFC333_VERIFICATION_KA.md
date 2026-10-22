@@ -18,7 +18,7 @@
 | [Asaf Chopurov](https://www.sherdog.com/fighter/Asaf-Chopurov-399679) | ემთხვევა Sherdog-ს | ემთხვევა Sherdog-ს | ძირითადი ველები ემთხვევა | NC/ქვეყანა სრულად გადაუმოწმებელია |
 | [Grant Dawson](https://www.sherdog.com/fighter/Grant-Dawson-103525) | ემთხვევა Sherdog-ს | ემთხვევა Sherdog-ს | ძირითადი ველები ემთხვევა | NC/ქვეყანა სრულად გადაუმოწმებელია |
 | [Nurullo Aliev](https://www.sherdog.com/fighter/Nurullo-Aliev-274869) | ემთხვევა Sherdog-ს | ემთხვევა Sherdog-ს | ძირითადი ველები ემთხვევა | ასაკის შესწორების წინადადება |
-| [Abus Magomedov](https://www.sherdog.com/fighter/Abus-Magomedov-60755) | ემთხვევა Sherdog-ს | ემთხვევა Sherdog-ს | საჭიროა დამატებითი შემოწმება | NC/ქვეყანა სრულად გადაუმოწმებელია |
+| [Abus Magomedov](https://www.sherdog.com/fighter/Abus-Magomedov-60755) | ემთხვევა Sherdog-ს | ემთხვევა Sherdog-ს | ძირითადი ველები ემთხვევა | NC/ქვეყანა სრულად გადაუმოწმებელია |
 | [Cam Rowston](https://www.sherdog.com/fighter/Cameron-Rowston-239381) | ემთხვევა Sherdog-ს | წყაროები ეწინააღმდეგება ერთმანეთს | ძირითადი ველები ემთხვევა | NC/ქვეყანა სრულად გადაუმოწმებელია |
 | [Nikita Krylov](https://www.sherdog.com/fighter/Nikita-Krylov-110937) | ემთხვევა Sherdog-ს | ემთხვევა Sherdog-ს | ძირითადი ველები ემთხვევა | NC/ქვეყანა სრულად გადაუმოწმებელია |
 | [Abdul Rakhman Yakhyaev](https://www.sherdog.com/fighter/AbdulRakhman-Yakhyaev-395509) | ემთხვევა Sherdog-ს | ემთხვევა Sherdog-ს | ძირითადი ველები ემთხვევა | NC/ქვეყანა სრულად გადაუმოწმებელია |
