@@ -22,7 +22,8 @@ def validate(event, publication=False):
     check(isinstance(event, dict), 'Event must be an object')
     if not isinstance(event, dict): return errors, warnings
     check(bool(re.fullmatch(r'[A-Za-z0-9_-]{1,100}', str(event.get('id', '')))), 'Invalid event ID')
-    check(bool(event.get('name')), 'Missing name')
+    for key in ('id', 'name', 'venue', 'date', 'dataCutoffDate'):
+        check(isinstance(event.get(key), str) and bool(event[key].strip()), f'Missing/invalid string: {key}')
     check(event.get('status') in ('DRAFT', 'PUBLISHED'), 'Invalid status')
     check(type(event.get('isSampleData')) is bool, 'isSampleData must be boolean')
     check(date(event.get('date')), 'Invalid event date')
@@ -52,13 +53,17 @@ def validate(event, publication=False):
         previous_card = rank
         main_count += card == 'MAIN_EVENT'
         co_count += card == 'CO_MAIN_EVENT'
-        check(fight.get('scheduledRounds') in (3, 5), f'Invalid rounds: {fid}')
+        check(type(fight.get('scheduledRounds')) is int and fight['scheduledRounds'] in (3, 5), f'Invalid rounds: {fid}')
+        check(type(fight.get('isTitleFight')) is bool, f'Invalid title flag: {fid}')
         check(not fight.get('isTitleFight') or fight.get('scheduledRounds') == 5, 'Title fight needs five rounds')
-        check(bool(fight.get('weightClass')), 'Missing weight class')
+        for key in ('weightClass', 'cardTypeLabel'):
+            check(isinstance(fight.get(key), str) and bool(fight[key].strip()), f'Missing/invalid {key}')
         for side in ('fighterA', 'fighterB'):
             fighter = fight.get(side, {})
             if not isinstance(fighter, dict):
                 errors.append('Fighter must be an object'); continue
+            check(all(isinstance(fighter.get(key), str) for key in ('firstName', 'lastName')), 'Invalid fighter name types')
+            check(fighter.get('age') is None or (type(fighter['age']) is int and 16 <= fighter['age'] <= 65), 'Invalid age')
             name = (str(fighter.get('firstName', '')) + ' ' + str(fighter.get('lastName', ''))).strip()
             identity = fighter.get('id')
             check(isinstance(identity, str) and bool(identity) and identity not in fighters, f'Duplicate/missing fighter ID: {name}')
@@ -73,7 +78,7 @@ def validate(event, publication=False):
             if valid_record and valid_breakdown:
                 check(sum(breakdown[k] for k in ('koTko', 'submission', 'decision', 'other')) == record['wins'], f'Win sum mismatch: {name}')
             history = fighter.get('lastTwoFights', [])
-            check(isinstance(history, list), f'History must be a list: {name}')
+            check('lastTwoFights' in fighter and isinstance(history, list), f'History must be a list: {name}')
             if not isinstance(history, list): continue
             expected = min(2, sum(record.values())) if valid_record else 2
             check(len(history) == expected, f'Incorrect history length: {name}')
@@ -81,8 +86,9 @@ def validate(event, publication=False):
             for past in history:
                 if not isinstance(past, dict): errors.append(f'Invalid history object: {name}'); continue
                 for key in ('opponentName', 'eventName', 'method'):
-                    check(bool(past.get(key)) and past[key] != 'N/A', f'Missing {key}: {name}')
+                    check(isinstance(past.get(key), str) and bool(past[key].strip()) and past[key] != 'N/A', f'Missing {key}: {name}')
                 check(past.get('result') in ('WIN', 'LOSS', 'DRAW', 'NO_CONTEST'), f'Invalid result: {name}')
+                check(past.get('round') is None or (type(past['round']) is int and 1 <= past['round'] <= 5), f'Invalid past round: {name}')
                 past_date = past.get('date')
                 check(date(past_date) and date(prev) and past_date <= prev and date(event.get('date')) and past_date < event['date'], f'Invalid chronology: {name}')
                 prev = past_date

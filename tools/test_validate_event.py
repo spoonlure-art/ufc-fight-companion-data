@@ -6,7 +6,7 @@ def fixture():
     past = {'opponentName': 'Opponent', 'eventName': 'Card', 'eventHeadliners': 'A vs B', 'date': '2026-08-01', 'result': 'WIN', 'method': 'Decision'}
     fighter = {'id': 'a', 'firstName': 'A', 'lastName': 'Test', 'country': 'Georgia', 'record': {'wins': 1, 'losses': 0, 'draws': 0, 'noContests': 0}, 'victoryBreakdown': {'koTko': 0, 'submission': 0, 'decision': 1, 'other': 0}, 'lastTwoFights': [past]}
     b = copy.deepcopy(fighter); b.update(id='b', firstName='B')
-    return {'id': 'event', 'name': 'Test', 'status': 'PUBLISHED', 'isSampleData': False, 'date': '2026-10-24', 'dataCutoffDate': '2026-10-22', 'fights': [{'id': 'bout', 'order': 1, 'cardType': 'MAIN_EVENT', 'weightClass': 'Lightweight', 'scheduledRounds': 5, 'fighterA': fighter, 'fighterB': b}]}
+    return {'id': 'event', 'name': 'Test', 'venue': 'Test venue', 'status': 'PUBLISHED', 'isSampleData': False, 'date': '2026-10-24', 'dataCutoffDate': '2026-10-22', 'fights': [{'id': 'bout', 'order': 1, 'cardType': 'MAIN_EVENT', 'cardTypeLabel': 'Main Event', 'isTitleFight': False, 'weightClass': 'Lightweight', 'scheduledRounds': 5, 'fighterA': fighter, 'fighterB': b}]}
 
 class ValidationTests(unittest.TestCase):
     def test_valid(self): self.assertEqual([], validate(fixture(), True)[0])
