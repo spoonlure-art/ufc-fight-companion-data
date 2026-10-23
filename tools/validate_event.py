@@ -119,6 +119,12 @@ def validate_manifest(root):
         event = json.loads(raw)
         assert event['id'] == entry['id'], 'ID mismatch'
         approval = event.get('ownerApproval', {})
+        assert isinstance(approval, dict) and approval.get('actor') == 'spoonlure-art', 'Owner approval provenance required'
+        assert re.fullmatch(r'[a-f0-9]{64}', approval.get('draftSha256', '')), 'Exact approved draft hash required'
+        dt.datetime.strptime(approval.get('approvedAt', ''), '%Y-%m-%dT%H:%M:%SZ')
+        verification = event.get('verification', {})
+        if approval.get('knownLimitationsAccepted') is not True:
+            assert verification.get('status') == 'VERIFIED' and type(verification.get('unresolvedCount')) is int and verification['unresolvedCount'] == 0, 'Unaccepted source limitations'
         if approval.get('knownLimitationsAccepted') is True:
             record_path = approval.get('approvalRecordPath', '')
             assert re.fullmatch(r'approvals/[A-Za-z0-9_-]+\.json', record_path), 'Invalid approval path'

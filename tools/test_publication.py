@@ -40,6 +40,18 @@ class PublicationTests(unittest.TestCase):
             root, sha = self.setup_root(directory)
             with self.assertRaises(ValueError): prepare(root,'../test.json',sha,'spoonlure-art')
 
+    def test_recomputed_payload_hash_cannot_hide_missing_owner_provenance(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root, sha = self.setup_root(directory)
+            entry = prepare(root,'drafts/test.json',sha,'spoonlure-art')
+            event = json.loads((root/entry['path']).read_text());event.pop('ownerApproval')
+            payload=json.dumps(event).encode();(root/entry['path']).write_bytes(payload)
+            manifest=json.loads((root/'manifest.json').read_text())
+            for value in [manifest['currentEvent'],*manifest['events']]:
+                value['sha256']=hashlib.sha256(payload).hexdigest()
+            (root/'manifest.json').write_text(json.dumps(manifest))
+            with self.assertRaises(AssertionError):validate_manifest(root)
+
     def test_explicit_owner_acceptance_preserves_source_uncertainty(self):
         with tempfile.TemporaryDirectory() as directory:
             root, _ = self.setup_root(directory)
