@@ -118,6 +118,18 @@ def validate_manifest(root):
         assert hashlib.sha256(raw).hexdigest() == entry['sha256'], 'Checksum mismatch'
         event = json.loads(raw)
         assert event['id'] == entry['id'], 'ID mismatch'
+        approval = event.get('ownerApproval', {})
+        if approval.get('knownLimitationsAccepted') is True:
+            record_path = approval.get('approvalRecordPath', '')
+            assert re.fullmatch(r'approvals/[A-Za-z0-9_-]+\.json', record_path), 'Invalid approval path'
+            record_raw = (root / record_path).read_bytes()
+            assert hashlib.sha256(record_raw).hexdigest() == approval.get('approvalRecordSha256'), 'Approval record checksum mismatch'
+            record = json.loads(record_raw)
+            assert record.get('actor') == approval.get('actor') == 'spoonlure-art'
+            assert record.get('decision') == 'APPROVE_AND_PUBLISH' and record.get('acceptKnownLimitations') is True
+            assert record.get('draftSha256') == approval.get('draftSha256') and record.get('eventId') == event['id']
+            assert record.get('sourceVerificationStatus') == event.get('verification', {}).get('status')
+            assert record.get('unresolvedCount') == event.get('verification', {}).get('unresolvedCount')
         errors, _ = validate(event, publication=True)
         assert not errors, '; '.join(errors)
 

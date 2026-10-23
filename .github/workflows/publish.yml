@@ -8,6 +8,9 @@ on:
       approved_sha256:
         description: 'Exact SHA-256 of the draft explicitly approved by the owner'
         required: true
+      owner_approval:
+        description: 'Optional exact owner acceptance record for documented source limitations'
+        required: false
 permissions:
   contents: read
 concurrency:
@@ -30,7 +33,11 @@ jobs:
         env:
           DRAFT_PATH: ${{ inputs.draft }}
           APPROVED_SHA: ${{ inputs.approved_sha256 }}
-        run: python tools/prepare_publication.py --draft "$DRAFT_PATH" --approved-sha "$APPROVED_SHA"
+          OWNER_APPROVAL: ${{ inputs.owner_approval }}
+        run: |
+          args=(--draft "$DRAFT_PATH" --approved-sha "$APPROVED_SHA")
+          if [ -n "$OWNER_APPROVAL" ]; then args+=(--owner-approval "$OWNER_APPROVAL"); fi
+          python tools/prepare_publication.py "${args[@]}"
       - name: Commit immutable publication and manifest together
         run: |
           git config user.name 'github-actions[bot]'

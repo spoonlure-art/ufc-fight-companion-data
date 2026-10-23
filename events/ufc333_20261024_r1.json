@@ -1,0 +1,1537 @@
+{
+  "id": "ufc333_20261024",
+  "name": "UFC 333: Volkanovski vs Evloev",
+  "subtitle": "Owner-approved event data",
+  "date": "2026-10-24",
+  "venue": "Etihad Arena, Abu Dhabi, UAE",
+  "isSampleData": false,
+  "status": "PUBLISHED",
+  "dataCutoffDate": "2026-10-22",
+  "note": "Independent technical cleanup and source comparison prepared 2026-10-23. All 28 professional records and recent-bout summaries compared with Sherdog; selected fields corroborated with UFC. ESPN full-profile access blocked. Cam Rowston and Rizvan Kuniev method classifications conflict across sources. Country/NC and full source completeness remain unverified. Owner approved and authorized publication on 2026-10-23, accepting the documented source limitations. Source verification remains partial.",
+  "fights": [
+    {
+      "id": "ufc333_1",
+      "order": 1,
+      "cardType": "EARLY_PRELIMS",
+      "cardTypeLabel": "Early Prelims",
+      "weightClass": "Women's Strawweight (115 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "1a",
+        "firstName": "Iasmin",
+        "lastName": "Lucindo",
+        "nickname": null,
+        "country": "Brazil",
+        "age": 24,
+        "record": {
+          "wins": 18,
+          "losses": 6,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 8,
+          "submission": 3,
+          "decision": 7,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Angela Hill",
+            "eventName": "UFC on ESPN",
+            "eventHeadliners": "Roman Dolidze vs Anthony Hernandez",
+            "date": "2025-08-09",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Amanda Lemos",
+            "eventName": "UFC 313",
+            "eventHeadliners": "Magomed Ankalaev vs Alex Pereira",
+            "date": "2025-03-08",
+            "result": "LOSS",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Iasmin-Lucindo-264861",
+            "https://www.ufc.com/athlete/iasmin-lucindo?language_content_entity=pt-br&page=1"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "1b",
+        "firstName": "Nicolle",
+        "lastName": "Caliari",
+        "nickname": null,
+        "country": "Brazil",
+        "age": 29,
+        "record": {
+          "wins": 9,
+          "losses": 4,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 5,
+          "submission": 4,
+          "decision": 0,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Shauna Bannon",
+            "eventName": "UFC Fight Night: Allen vs Costa",
+            "eventHeadliners": "Arnold Allen vs Melquizael Costa",
+            "date": "2026-05-16",
+            "result": "WIN",
+            "method": "Submission - Arm Triangle",
+            "round": 3
+          },
+          {
+            "opponentName": "Carli Judice",
+            "eventName": "UFC 318",
+            "eventHeadliners": "Max Holloway vs Dustin Poirier",
+            "date": "2025-07-19",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Nicolle-Caliari-202195",
+            "https://www.ufc.com/athlete/nicolle-caliari"
+          ],
+          "unresolved": []
+        }
+      }
+    },
+    {
+      "id": "ufc333_2",
+      "order": 2,
+      "cardType": "EARLY_PRELIMS",
+      "cardTypeLabel": "Early Prelims",
+      "weightClass": "Lightweight",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "2a",
+        "firstName": "Kody",
+        "lastName": "Steele",
+        "nickname": null,
+        "country": "United States",
+        "age": 31,
+        "record": {
+          "wins": 8,
+          "losses": 1,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 4,
+          "submission": 2,
+          "decision": 2,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Dom Mar Fan",
+            "eventName": "UFC Fight Night: Della Maddalena vs Prates",
+            "eventHeadliners": "Jack Della Maddalena vs Carlos Prates",
+            "date": "2026-05-02",
+            "result": "WIN",
+            "method": "Submission - Heel Hook",
+            "round": 1
+          },
+          {
+            "opponentName": "Rongzhu",
+            "eventName": "UFC 312",
+            "eventHeadliners": "Dricus Du Plessis vs Sean Strickland",
+            "date": "2025-02-08",
+            "result": "LOSS",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Kody-Steele-392962",
+            "https://www.ufc.com/athlete/kody-steele"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "2b",
+        "firstName": "Noah",
+        "lastName": "Gugnon",
+        "nickname": null,
+        "country": "France",
+        "age": 26,
+        "record": {
+          "wins": 10,
+          "losses": 2,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 6,
+          "submission": 4,
+          "decision": 0,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Miloš Janičić",
+            "eventName": "UFC Fight Night: Medic vs Rodriguez",
+            "eventHeadliners": "Uroš Medić vs Daniel Rodriguez",
+            "date": "2026-08-01",
+            "result": "WIN",
+            "method": "Submission - Rear Naked Choke",
+            "round": 1
+          },
+          {
+            "opponentName": "Bruno Matos de Sousa",
+            "eventName": "Ares 39: Jbalia vs Diatta",
+            "eventHeadliners": "Jbalia vs Diatta",
+            "date": "2026-04-03",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 1
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Noah-Gugnon-236171"
+          ],
+          "unresolved": [
+            "Age proposal: 25 -> 26 from profile; not a birth-date-derived age model"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ufc333_3",
+      "order": 3,
+      "cardType": "EARLY_PRELIMS",
+      "cardTypeLabel": "Early Prelims",
+      "weightClass": "Featherweight (145 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "3a",
+        "firstName": "Bolaji",
+        "lastName": "Oki",
+        "nickname": null,
+        "country": "Belgium",
+        "age": 30,
+        "record": {
+          "wins": 10,
+          "losses": 4,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 5,
+          "submission": 1,
+          "decision": 4,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Manoel Sousa",
+            "eventName": "UFC Fight Night",
+            "eventHeadliners": "Josh Emmett vs Kevin Vallejos",
+            "date": "2026-03-14",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 3
+          },
+          {
+            "opponentName": "Mason Jones",
+            "eventName": "UFC Fight Night",
+            "eventHeadliners": "Nassourdine Imavov vs Caio Borralho",
+            "date": "2025-09-06",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 2
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Bolaji-Oki-276669",
+            "https://www.ufc.com/athlete/bolaji-oki"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "3b",
+        "firstName": "Daniel",
+        "lastName": "Santos",
+        "nickname": null,
+        "country": "Brazil",
+        "age": 31,
+        "record": {
+          "wins": 14,
+          "losses": 3,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 7,
+          "submission": 2,
+          "decision": 5,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Dooho Choi",
+            "eventName": "UFC Fight Night: Allen vs Costa",
+            "eventHeadliners": "Arnold Allen vs Melquizael Costa",
+            "date": "2026-05-16",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 2
+          },
+          {
+            "opponentName": "JooSang Yoo",
+            "eventName": "UFC 320",
+            "eventHeadliners": "Magomed Ankalaev vs Alex Pereira",
+            "date": "2025-10-04",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 2
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Daniel-Santos-144395",
+            "https://www.ufc.com/athlete/daniel-santos?page=1"
+          ],
+          "unresolved": []
+        }
+      }
+    },
+    {
+      "id": "ufc333_4",
+      "order": 4,
+      "cardType": "EARLY_PRELIMS",
+      "cardTypeLabel": "Early Prelims",
+      "weightClass": "Middleweight (185 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "4a",
+        "firstName": "Abubakar",
+        "lastName": "Vagaev",
+        "nickname": null,
+        "country": "Russia",
+        "age": 33,
+        "record": {
+          "wins": 25,
+          "losses": 4,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 4,
+          "submission": 1,
+          "decision": 20,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Saygid Izagakhmaev",
+            "eventName": "UFC Fight Night: Ankalaev vs Guskov",
+            "eventHeadliners": "Magomed Ankalaev vs Bogdan Guskov",
+            "date": "2026-07-25",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Albert Tumenov",
+            "eventName": "ACA 183: Tumenov vs Vagaev",
+            "eventHeadliners": "Albert Tumenov vs Abubakar Vagaev",
+            "date": "2025-02-08",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 5
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Abubakar-Vagaev-171149",
+            "https://www.ufc.com/athlete/abubakar-vagaev"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "4b",
+        "firstName": "Jacob",
+        "lastName": "Malkoun",
+        "nickname": null,
+        "country": "Australia",
+        "age": 31,
+        "record": {
+          "wins": 10,
+          "losses": 3,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 3,
+          "submission": 0,
+          "decision": 7,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Gerald Meerschaert",
+            "eventName": "UFC Fight Night: Della Maddalena vs Prates",
+            "eventHeadliners": "Jack Della Maddalena vs Carlos Prates",
+            "date": "2026-05-02",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Torrez Finney",
+            "eventName": "UFC 325",
+            "eventHeadliners": "Alexander Volkanovski vs Diego Lopes",
+            "date": "2026-01-31",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Jacob-Malkoun-204645",
+            "https://www.ufc.com/athlete/jacob-malkoun"
+          ],
+          "unresolved": []
+        }
+      }
+    },
+    {
+      "id": "ufc333_5",
+      "order": 5,
+      "cardType": "EARLY_PRELIMS",
+      "cardTypeLabel": "Early Prelims",
+      "weightClass": "Bantamweight",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "5a",
+        "firstName": "Colby",
+        "lastName": "Thicknesse",
+        "nickname": null,
+        "country": "Australia",
+        "age": 27,
+        "record": {
+          "wins": 9,
+          "losses": 1,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 2,
+          "submission": 2,
+          "decision": 5,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Vince Morales",
+            "eventName": "UFC Fight Night: Della Maddalena vs Prates",
+            "eventHeadliners": "Jack Della Maddalena vs Carlos Prates",
+            "date": "2026-05-02",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Josias Musasa",
+            "eventName": "UFC Fight Night",
+            "eventHeadliners": "Carlos Ulberg vs Dominick Reyes",
+            "date": "2025-09-27",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Colby-Thicknesse-285257",
+            "https://www.ufc.com/athlete/colby-thicknesse"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "5b",
+        "firstName": "Asaf",
+        "lastName": "Chopurov",
+        "nickname": "Honey Badger",
+        "country": "",
+        "age": 24,
+        "record": {
+          "wins": 11,
+          "losses": 0,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 5,
+          "submission": 5,
+          "decision": 1,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Reece McLaren",
+            "eventName": "UAE Warriors 72: Chopurov vs McLaren",
+            "eventHeadliners": "Asaf Chopurov vs Reece McLaren",
+            "date": "2026-07-23",
+            "result": "WIN",
+            "method": "KO",
+            "round": 1
+          },
+          {
+            "opponentName": "Adriano Ramos",
+            "eventName": "UAE Warriors 69: Chopurov vs Ramos",
+            "eventHeadliners": "Asaf Chopurov vs Adriano Ramos",
+            "date": "2026-03-28",
+            "result": "WIN",
+            "method": "Submission - Rear Naked Choke",
+            "round": 1
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Asaf-Chopurov-399679",
+            "https://www.ufc.com/athlete/asaf-chopurov"
+          ],
+          "unresolved": []
+        }
+      }
+    },
+    {
+      "id": "ufc333_6",
+      "order": 6,
+      "cardType": "PRELIMS",
+      "cardTypeLabel": "Prelims",
+      "weightClass": "Lightweight",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "6a",
+        "firstName": "Grant",
+        "lastName": "Dawson",
+        "nickname": null,
+        "country": "United States",
+        "age": 32,
+        "record": {
+          "wins": 24,
+          "losses": 3,
+          "draws": 1,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 5,
+          "submission": 14,
+          "decision": 5,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Mateusz Rębecki",
+            "eventName": "UFC 328",
+            "eventHeadliners": "Khamzat Chimaev vs Sean Strickland",
+            "date": "2026-05-09",
+            "result": "WIN",
+            "method": "Submission - Rear Naked Choke",
+            "round": 3
+          },
+          {
+            "opponentName": "Manuel Torres",
+            "eventName": "UFC 323",
+            "eventHeadliners": "Merab Dvalishvili vs Petr Yan",
+            "date": "2025-12-06",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 1
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Grant-Dawson-103525",
+            "https://www.ufc.com/athlete/grant-dawson"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "6b",
+        "firstName": "Nurullo",
+        "lastName": "Aliev",
+        "nickname": null,
+        "country": "Tajikistan",
+        "age": 27,
+        "record": {
+          "wins": 12,
+          "losses": 0,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 2,
+          "submission": 0,
+          "decision": 10,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Mike Davis",
+            "eventName": "UFC Fight Night: Ankalaev vs Guskov",
+            "eventHeadliners": "Magomed Ankalaev vs Bogdan Guskov",
+            "date": "2026-07-25",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Shem Rock",
+            "eventName": "UFC Fight Night",
+            "eventHeadliners": "Arman Tsarukyan vs Dan Hooker",
+            "date": "2025-11-22",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Nurullo-Aliev-274869",
+            "https://www.ufc.com/athlete/nurullo-aliev?language_content_entity=ru&page=1"
+          ],
+          "unresolved": [
+            "Age proposal: 25 -> 27 from profile; not a birth-date-derived age model"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ufc333_7",
+      "order": 7,
+      "cardType": "PRELIMS",
+      "cardTypeLabel": "Prelims",
+      "weightClass": "Middleweight",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "7a",
+        "firstName": "Abus",
+        "lastName": "Magomedov",
+        "nickname": null,
+        "country": "Germany",
+        "age": 36,
+        "record": {
+          "wins": 29,
+          "losses": 7,
+          "draws": 1,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 14,
+          "submission": 8,
+          "decision": 7,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Michał Oleksiejczuk",
+            "eventName": "UFC Fight Night: Fiziev vs Torres",
+            "eventHeadliners": "Rafael Fiziev vs Manuel Torres",
+            "date": "2026-06-27",
+            "result": "WIN",
+            "method": "Submission - Guillotine Choke",
+            "round": 1
+          },
+          {
+            "opponentName": "Joe Pyfer",
+            "eventName": "UFC 320",
+            "eventHeadliners": "Magomed Ankalaev vs Alex Pereira",
+            "date": "2025-10-04",
+            "result": "LOSS",
+            "method": "Submission - Face Crank",
+            "round": 2
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Abus-Magomedov-60755",
+            "https://www.ufc.com/athlete/abus-magomedov?language_content_entity=ja&page=1"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "7b",
+        "firstName": "Cam",
+        "lastName": "Rowston",
+        "nickname": null,
+        "country": "Australia",
+        "age": 31,
+        "record": {
+          "wins": 15,
+          "losses": 3,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 6,
+          "submission": 7,
+          "decision": 2,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Robert Bryczek",
+            "eventName": "UFC Fight Night: Della Maddalena vs Prates",
+            "eventHeadliners": "Jack Della Maddalena vs Carlos Prates",
+            "date": "2026-05-02",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Cody Brundage",
+            "eventName": "UFC 325",
+            "eventHeadliners": "Alexander Volkanovski vs Diego Lopes",
+            "date": "2026-01-31",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 2
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Cameron-Rowston-239381",
+            "https://www.ufc.com/athlete/cam-rowston"
+          ],
+          "unresolved": [
+            "Victory method classification differs between UFC and Sherdog; retained original values and marked unresolved."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ufc333_8",
+      "order": 8,
+      "cardType": "PRELIMS",
+      "cardTypeLabel": "Prelims",
+      "weightClass": "Light Heavyweight",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "8a",
+        "firstName": "Nikita",
+        "lastName": "Krylov",
+        "nickname": null,
+        "country": "",
+        "age": 34,
+        "record": {
+          "wins": 31,
+          "losses": 12,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 13,
+          "submission": 16,
+          "decision": 2,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Robert Whittaker",
+            "eventName": "UFC 329",
+            "eventHeadliners": "Conor McGregor vs Max Holloway",
+            "date": "2026-07-11",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 3
+          },
+          {
+            "opponentName": "Modestas Bukauskas",
+            "eventName": "UFC 324",
+            "eventHeadliners": "Justin Gaethje vs Paddy Pimblett",
+            "date": "2026-01-24",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Nikita-Krylov-110937",
+            "https://www.ufc.com/athlete/nikita-krylov"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "8b",
+        "firstName": "Abdul",
+        "lastName": "Rakhman Yakhyaev",
+        "nickname": null,
+        "country": "Russia",
+        "age": 25,
+        "record": {
+          "wins": 10,
+          "losses": 0,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 4,
+          "submission": 5,
+          "decision": 1,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Julius Walker",
+            "eventName": "UFC Fight Night: Fiziev vs Torres",
+            "eventHeadliners": "Rafael Fiziev vs Manuel Torres",
+            "date": "2026-06-27",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 1
+          },
+          {
+            "opponentName": "Brendson Ribeiro",
+            "eventName": "UFC Fight Night",
+            "eventHeadliners": "Renato Moicano vs Chris Duncan",
+            "date": "2026-04-04",
+            "result": "WIN",
+            "method": "Submission - Rear Naked Choke",
+            "round": 1
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/AbdulRakhman-Yakhyaev-395509",
+            "https://www.ufc.com/athlete/abdulrakhman-yakhyaev"
+          ],
+          "unresolved": []
+        }
+      }
+    },
+    {
+      "id": "ufc333_9",
+      "order": 9,
+      "cardType": "PRELIMS",
+      "cardTypeLabel": "Prelims",
+      "weightClass": "Light Heavyweight",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "9a",
+        "firstName": "Azamat",
+        "lastName": "Murzakanov",
+        "nickname": null,
+        "country": "Russia",
+        "age": 37,
+        "record": {
+          "wins": 16,
+          "losses": 1,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 12,
+          "submission": 1,
+          "decision": 3,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Paulo Costa",
+            "eventName": "UFC 327",
+            "eventHeadliners": "Jiří Procházka vs Carlos Ulberg",
+            "date": "2026-04-11",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 3
+          },
+          {
+            "opponentName": "Aleksandar Rakić",
+            "eventName": "UFC 321",
+            "eventHeadliners": "Tom Aspinall vs Ciryl Gane",
+            "date": "2025-10-25",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 1
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Azamat-Murzakanov-60203"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "9b",
+        "firstName": "Dominick",
+        "lastName": "Reyes",
+        "nickname": null,
+        "country": "United States",
+        "age": 36,
+        "record": {
+          "wins": 16,
+          "losses": 5,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 10,
+          "submission": 2,
+          "decision": 4,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Johnny Walker",
+            "eventName": "UFC 327",
+            "eventHeadliners": "Jiří Procházka vs Carlos Ulberg",
+            "date": "2026-04-11",
+            "result": "WIN",
+            "method": "Decision - Split",
+            "round": 3
+          },
+          {
+            "opponentName": "Carlos Ulberg",
+            "eventName": "UFC Fight Night",
+            "eventHeadliners": "Carlos Ulberg vs Dominick Reyes",
+            "date": "2025-09-27",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 1
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Dominick-Reyes-145941",
+            "https://www.ufc.com/athlete/dominick-reyes"
+          ],
+          "unresolved": []
+        }
+      }
+    },
+    {
+      "id": "ufc333_10",
+      "order": 10,
+      "cardType": "MAIN_CARD",
+      "cardTypeLabel": "Main Card",
+      "weightClass": "Featherweight",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "10a",
+        "firstName": "Aaron",
+        "lastName": "Pico",
+        "nickname": null,
+        "country": "United States",
+        "age": 30,
+        "record": {
+          "wins": 14,
+          "losses": 5,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 9,
+          "submission": 2,
+          "decision": 3,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Patricio Pitbull",
+            "eventName": "UFC 327",
+            "eventHeadliners": "Jiří Procházka vs Carlos Ulberg",
+            "date": "2026-04-11",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Lerone Murphy",
+            "eventName": "UFC 319",
+            "eventHeadliners": "Dricus Du Plessis vs Khamzat Chimaev",
+            "date": "2025-08-16",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 1
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Aaron-Pico-191127",
+            "https://www.ufc.com/athlete/aaron-pico"
+          ],
+          "unresolved": [
+            "Age proposal: 29 -> 30 from profile; not a birth-date-derived age model"
+          ]
+        }
+      },
+      "fighterB": {
+        "id": "10b",
+        "firstName": "Losene",
+        "lastName": "Keita",
+        "nickname": null,
+        "country": "Belgium",
+        "age": 28,
+        "record": {
+          "wins": 17,
+          "losses": 2,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 11,
+          "submission": 0,
+          "decision": 6,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Muhammad Naimov",
+            "eventName": "UFC Fight Night",
+            "eventHeadliners": "Dan Hooker vs Salahdine Parnasse",
+            "date": "2026-09-05",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 1
+          },
+          {
+            "opponentName": "Nathaniel Wood",
+            "eventName": "UFC Fight Night: Evloev vs Murphy",
+            "eventHeadliners": "Movsar Evloev vs Lerone Murphy",
+            "date": "2026-03-21",
+            "result": "LOSS",
+            "method": "Decision - Split",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Losene-Keita-287481",
+            "https://www.ufc.com/athlete/losene-keita"
+          ],
+          "unresolved": []
+        }
+      }
+    },
+    {
+      "id": "ufc333_11",
+      "order": 11,
+      "cardType": "MAIN_CARD",
+      "cardTypeLabel": "Main Card",
+      "weightClass": "Heavyweight",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "11a",
+        "firstName": "Alexander",
+        "lastName": "Volkov",
+        "nickname": null,
+        "country": "Russia",
+        "age": 37,
+        "record": {
+          "wins": 40,
+          "losses": 11,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 24,
+          "submission": 4,
+          "decision": 12,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Waldo Cortes Acosta",
+            "eventName": "UFC 328",
+            "eventHeadliners": "Khamzat Chimaev vs Sean Strickland",
+            "date": "2026-05-09",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Jailton Almeida",
+            "eventName": "UFC 321",
+            "eventHeadliners": "Tom Aspinall vs Ciryl Gane",
+            "date": "2025-10-25",
+            "result": "WIN",
+            "method": "Decision - Split",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Alexander-Volkov-40951",
+            "https://www.ufc.com/athlete/alexander-volkov"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "11b",
+        "firstName": "Rizvan",
+        "lastName": "Kuniev",
+        "nickname": null,
+        "country": "Russia",
+        "age": 34,
+        "record": {
+          "wins": 14,
+          "losses": 3,
+          "draws": 1,
+          "noContests": 1
+        },
+        "victoryBreakdown": {
+          "koTko": 7,
+          "submission": 2,
+          "decision": 5,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Tyrell Fortune",
+            "eventName": "UFC Fight Night: Ankalaev vs Guskov",
+            "eventHeadliners": "Magomed Ankalaev vs Bogdan Guskov",
+            "date": "2026-07-25",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 3
+          },
+          {
+            "opponentName": "Jailton Almeida",
+            "eventName": "UFC Fight Night",
+            "eventHeadliners": "Mario Bautista vs Vinicius Oliveira",
+            "date": "2026-02-07",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Rizvan-Kuniev-86319",
+            "https://www.ufc.com/athlete/rizvan-kuniev"
+          ],
+          "unresolved": [
+            "Victory method classification differs between UFC and Sherdog; retained original values and marked unresolved."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ufc333_12",
+      "order": 12,
+      "cardType": "MAIN_CARD",
+      "cardTypeLabel": "Main Card",
+      "weightClass": "Flyweight",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "12a",
+        "firstName": "Lone’er",
+        "lastName": "Kavanagh",
+        "nickname": null,
+        "country": "England",
+        "age": 27,
+        "record": {
+          "wins": 10,
+          "losses": 2,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 4,
+          "submission": 1,
+          "decision": 5,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Brandon Royval",
+            "eventName": "UFC 329",
+            "eventHeadliners": "Conor McGregor vs Max Holloway",
+            "date": "2026-07-11",
+            "result": "LOSS",
+            "method": "Submission - Rear Naked Choke",
+            "round": 3
+          },
+          {
+            "opponentName": "Brandon Moreno",
+            "eventName": "UFC Fight Night",
+            "eventHeadliners": "Brandon Moreno vs Lone’er Kavanagh",
+            "date": "2026-02-28",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 5
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Loneer-Kavanagh-213249",
+            "https://www.ufc.com/athlete/loneer-kavanagh"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "12b",
+        "firstName": "Ramazan",
+        "lastName": "Temirov",
+        "nickname": null,
+        "country": "Uzbekistan",
+        "age": 29,
+        "record": {
+          "wins": 20,
+          "losses": 3,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 12,
+          "submission": 1,
+          "decision": 7,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Steve Erceg",
+            "eventName": "UFC Fight Night: Ankalaev vs Guskov",
+            "eventHeadliners": "Magomed Ankalaev vs Bogdan Guskov",
+            "date": "2026-07-25",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 1
+          },
+          {
+            "opponentName": "Charles Johnson",
+            "eventName": "UFC Fight Night",
+            "eventHeadliners": "Manel Kape vs Asu Almabayev",
+            "date": "2025-03-01",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Ramazonbek-Temirov-215649",
+            "https://www.ufc.com/athlete/ramazan-temirov"
+          ],
+          "unresolved": []
+        }
+      }
+    },
+    {
+      "id": "ufc333_13",
+      "order": 13,
+      "cardType": "CO_MAIN_EVENT",
+      "cardTypeLabel": "Co-Main Event",
+      "weightClass": "Bantamweight Title (135 lbs)",
+      "scheduledRounds": 5,
+      "isTitleFight": true,
+      "fighterA": {
+        "id": "13a",
+        "firstName": "Petr",
+        "lastName": "Yan",
+        "nickname": "No Mercy",
+        "country": "Russia",
+        "age": 33,
+        "record": {
+          "wins": 20,
+          "losses": 5,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 7,
+          "submission": 1,
+          "decision": 12,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Merab Dvalishvili",
+            "eventName": "UFC 323",
+            "eventHeadliners": "Merab Dvalishvili vs Petr Yan",
+            "date": "2025-12-06",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 5
+          },
+          {
+            "opponentName": "Marcus McGhee",
+            "eventName": "UFC on ABC",
+            "eventHeadliners": "Robert Whittaker vs Reinier de Ridder",
+            "date": "2025-07-26",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Petr-Yan-186873",
+            "https://www.ufc.com/athlete/petr-yan"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "13b",
+        "firstName": "Merab",
+        "lastName": "Dvalishvili",
+        "nickname": "The Machine",
+        "country": "Georgia",
+        "age": 35,
+        "record": {
+          "wins": 21,
+          "losses": 5,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 3,
+          "submission": 2,
+          "decision": 16,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Petr Yan",
+            "eventName": "UFC 323",
+            "eventHeadliners": "Merab Dvalishvili vs Petr Yan",
+            "date": "2025-12-06",
+            "result": "LOSS",
+            "method": "Decision - Unanimous",
+            "round": 5
+          },
+          {
+            "opponentName": "Cory Sandhagen",
+            "eventName": "UFC 320",
+            "eventHeadliners": "Magomed Ankalaev vs Alex Pereira",
+            "date": "2025-10-04",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 5
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Merab-Dvalishvili-157355"
+          ],
+          "unresolved": []
+        }
+      }
+    },
+    {
+      "id": "ufc333_14",
+      "order": 14,
+      "cardType": "MAIN_EVENT",
+      "cardTypeLabel": "Main Event",
+      "weightClass": "Featherweight Title (145 lbs)",
+      "scheduledRounds": 5,
+      "isTitleFight": true,
+      "fighterA": {
+        "id": "14a",
+        "firstName": "Alexander",
+        "lastName": "Volkanovski",
+        "nickname": "The Great",
+        "country": "Australia",
+        "age": 38,
+        "record": {
+          "wins": 28,
+          "losses": 4,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 13,
+          "submission": 3,
+          "decision": 12,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Diego Lopes",
+            "eventName": "UFC 325: Volkanovski vs. Lopes 2",
+            "eventHeadliners": "Alexander Volkanovski vs Diego Lopes",
+            "date": "2026-01-31",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 5
+          },
+          {
+            "opponentName": "Diego Lopes",
+            "eventName": "UFC 314: Volkanovski vs. Lopes",
+            "eventHeadliners": "Alexander Volkanovski vs Diego Lopes",
+            "date": "2025-04-12",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 5
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Alexander-Volkanovski-101527",
+            "https://www.ufc.com/athlete/alexander-volkanovski"
+          ],
+          "unresolved": []
+        }
+      },
+      "fighterB": {
+        "id": "14b",
+        "firstName": "Movsar",
+        "lastName": "Evloev",
+        "nickname": null,
+        "country": "Russia",
+        "age": 32,
+        "record": {
+          "wins": 20,
+          "losses": 0,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 3,
+          "submission": 4,
+          "decision": 13,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Lerone Murphy",
+            "eventName": "UFC Fight Night: Evloev vs Murphy",
+            "eventHeadliners": "Movsar Evloev vs Lerone Murphy",
+            "date": "2026-03-21",
+            "result": "WIN",
+            "method": "Decision - Majority",
+            "round": 5
+          },
+          {
+            "opponentName": "Aljamain Sterling",
+            "eventName": "UFC 310",
+            "eventHeadliners": "Alexandre Pantoja vs Kai Asakura",
+            "date": "2024-12-07",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-23",
+          "sources": [
+            "https://www.sherdog.com/fighter/Movsar-Evloev-183539",
+            "https://www.ufc.com/athlete/movsar-evloev?language_content_entity=en&page=1"
+          ],
+          "unresolved": []
+        }
+      }
+    }
+  ],
+  "verification": {
+    "status": "PARTIALLY_VERIFIED",
+    "report": "reports/UFC333_VERIFICATION.json",
+    "checkedAt": "2026-10-23",
+    "unresolvedCount": 105
+  },
+  "sourceDraft": {
+    "path": "drafts/UFC333_REVIEW_DRAFT.json",
+    "sha256": "82fd4e76753bf5b0d51241910d26130d41db18b53ddd712c0a4e1b2813de25a8"
+  },
+  "ownerApproval": {
+    "actor": "spoonlure-art",
+    "draftSha256": "4312d305895994dca83f39f3e1d6bc725f1abd8f0c2a2ea38d3ea9da78a08384",
+    "approvedAt": "2026-10-23T08:29:38Z",
+    "approvalRecordPath": "approvals/UFC333_OWNER_APPROVAL_20261023.json",
+    "approvalRecordSha256": "fb0de466fb50ee518639bc52de30b2be6a5435ecf236fea05a8d00c6ac2be8c7",
+    "knownLimitationsAccepted": true,
+    "sourceVerificationStatus": "PARTIALLY_VERIFIED"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "actor": "spoonlure-art",
+  "decision": "APPROVE_AND_PUBLISH",
+  "eventId": "ufc333_20261024",
+  "draftPath": "drafts/UFC333_OWNER_APPROVED_CANDIDATE.json",
+  "draftSha256": "4312d305895994dca83f39f3e1d6bc725f1abd8f0c2a2ea38d3ea9da78a08384",
+  "acceptKnownLimitations": true,
+  "sourceVerificationStatus": "PARTIALLY_VERIFIED",
+  "unresolvedCount": 105,
+  "approvedAt": "2026-10-23T08:29:38Z",
+  "approvalChannel": "Product-owner instruction in ChatGPT project session",
+  "approvalEvidence": [
+    "ufc 333 ჩათვალე დადასტურებულად",
+    "ბოლო აპკ გადმოვწერე მუშაობს",
+    "კი გაძლევ და დაიწყე 4-5-6-7 პუქტების გაკეთება"
+  ],
+  "scope": "Explicit approval and central publication authorization; source conflicts remain recorded. No claim of complete ESPN or independent source verification."
+}

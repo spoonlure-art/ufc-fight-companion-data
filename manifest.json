@@ -1,7 +1,17 @@
 {
   "schemaVersion": 1,
-  "revision": 0,
-  "publishedAt": null,
-  "currentEvent": null,
-  "events": []
+  "revision": 1,
+  "publishedAt": "2026-10-23T08:30:01Z",
+  "currentEvent": {
+    "id": "ufc333_20261024",
+    "path": "events/ufc333_20261024_r1.json",
+    "sha256": "f3251685c2adc84d5d3f8a9c43b8c860da8cee24994b3a9520a0c568da0c42a2"
+  },
+  "events": [
+    {
+      "id": "ufc333_20261024",
+      "path": "events/ufc333_20261024_r1.json",
+      "sha256": "f3251685c2adc84d5d3f8a9c43b8c860da8cee24994b3a9520a0c568da0c42a2"
+    }
+  ]
 }
