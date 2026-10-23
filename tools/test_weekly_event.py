@@ -37,3 +37,23 @@ class WeeklyTests(unittest.TestCase):
     def test_rollback_rejects_nonowner(self):
         with tempfile.TemporaryDirectory() as directory:
             with self.assertRaises(ValueError):rollback(Path(directory),'events/x.json','0'*64,'bot')
+    def test_changed_draft_requires_fresh_owner_hash(self):
+        from test_publication import PublicationTests
+        from prepare_publication import prepare
+        with tempfile.TemporaryDirectory() as directory:
+            root, sha=PublicationTests().setup_root(directory)
+            before=(root/'manifest.json').read_bytes()
+            draft=root/'drafts/test.json';event=json.loads(draft.read_bytes());event['name']='Edited after approval'
+            draft.write_text(json.dumps(event))
+            with self.assertRaises(ValueError):prepare(root,'drafts/test.json',sha,'spoonlure-art')
+            self.assertEqual(before,(root/'manifest.json').read_bytes())
+    def test_rollback_wrong_hash_keeps_manifest_and_payload(self):
+        from test_publication import PublicationTests
+        from prepare_publication import prepare
+        with tempfile.TemporaryDirectory() as directory:
+            root, sha=PublicationTests().setup_root(directory)
+            entry=prepare(root,'drafts/test.json',sha,'spoonlure-art')
+            before=(root/'manifest.json').read_bytes();payload=(root/entry['path']).read_bytes()
+            with self.assertRaises(ValueError):rollback(root,entry['path'],'0'*64,'spoonlure-art')
+            self.assertEqual(before,(root/'manifest.json').read_bytes())
+            self.assertEqual(payload,(root/entry['path']).read_bytes())
