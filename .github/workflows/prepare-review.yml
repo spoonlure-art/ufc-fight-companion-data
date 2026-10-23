@@ -1,0 +1,38 @@
+name: Prepare weekly review without publishing
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Repository JSON path containing researched event data; never a URL'
+        required: true
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate tools
+        run: python -m unittest discover -s tools -p 'test_*.py' -v
+      - name: Prepare isolated DRAFT and review report
+        env:
+          SOURCE: ${{ inputs.source }}
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+          from pathlib import Path
+          sys.path.insert(0, 'tools')
+          from weekly_event import stage
+          root = Path.cwd().resolve()
+          source = (root / os.environ['SOURCE']).resolve()
+          if root not in source.parents or source.suffix != '.json':
+              raise ValueError('Source must be a repository JSON file')
+          stage(root / 'review-output', source)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: weekly-owner-review
+          path: review-output/
+          if-no-files-found: error
