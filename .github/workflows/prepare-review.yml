@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Validate tools
         run: python -m unittest discover -s tools -p 'test_*.py' -v
       - name: Prepare isolated DRAFT and review report
@@ -31,7 +31,7 @@ jobs:
               raise ValueError('Source must be a repository JSON file')
           stage(root / 'review-output', source)
           PY
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: weekly-owner-review
           path: review-output/
