@@ -1,0 +1,1586 @@
+{
+  "id": "ufcfn_moicano_nolan_20261031",
+  "name": "UFC Fight Night: Moicano vs Nolan",
+  "subtitle": "Renato Moicano vs Tom Nolan",
+  "date": "2026-10-31",
+  "venue": "Meta APEX, Las Vegas, Nevada, United States",
+  "isSampleData": false,
+  "status": "DRAFT",
+  "dataCutoffDate": "2026-10-28",
+  "note": "Researched 2026-10-28. Twelve current bouts, five main-card and seven prelims. Professional-only history; source discrepancies are retained in the linked verification report. This DRAFT is not approval or publication.",
+  "sources": [
+    {
+      "url": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600061420?lang=en&region=us",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "url": "https://www.ufc.com/news/fight-fight-preview-ufc-fight-night-moicano-vs-nolan",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "url": "https://www.ufc.com/news/tickets-sale-october-10-october-31-and-november-7-ufc-fight-night-events-meta-apex",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261025-20261031",
+      "checkedAt": "2026-10-28"
+    }
+  ],
+  "verification": {
+    "status": "PARTIALLY_VERIFIED",
+    "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json",
+    "checkedAt": "2026-10-28",
+    "unresolvedCount": 12
+  },
+  "fights": [
+    {
+      "id": "ufcfn_moicano_nolan_20261031_01",
+      "order": 1,
+      "cardType": "PRELIMS",
+      "cardTypeLabel": "Prelims",
+      "weightClass": "Women's Flyweight (125 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "lucia-szabova",
+        "firstName": "Lucia",
+        "lastName": "Szabova",
+        "nickname": null,
+        "country": "Slovakia",
+        "age": 28,
+        "record": {
+          "wins": 12,
+          "losses": 0,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 4,
+          "submission": 5,
+          "decision": 3,
+          "other": 0,
+          "exceptionalNote": "Documented provider differences; see verification report. No arithmetic validation is bypassed."
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Lucie Pudilova",
+            "eventName": "OKTAGON 92: Szabová vs. Pudilová",
+            "eventHeadliners": "Lucia Szabova vs Lucie Pudilova",
+            "date": "2026-08-01",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 5
+          },
+          {
+            "opponentName": "Leidiane Fernandes",
+            "eventName": "OKTAGON 87: Szabová vs. Fernandes",
+            "eventHeadliners": "Lucia Szabova vs Leidiane Fernandes",
+            "date": "2026-04-25",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5130185?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5130185/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5130185/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/lucia-szabova",
+          "https://oktagonmma.com/en/fighters/185/",
+          "https://www.sherdog.com/fighter/Lucia-Szabova-363981",
+          "https://7sport.sk/profil/kto-je-lucia-szabova-profil-mma/",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/other/events/600062125?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/other/events/600062125/competitions/401930300/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20260801",
+          "https://oktagonmma.com/en/events/oktagon-92-prague/",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/other/events/600062124?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/other/events/600062124/competitions/401930299/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20260425"
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [
+            "record.wins",
+            "victoryBreakdown.koTko",
+            "victoryBreakdown.submission"
+          ],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "tainara-lisboa",
+        "firstName": "Tainara",
+        "lastName": "Lisboa",
+        "nickname": null,
+        "country": "Brazil",
+        "age": 35,
+        "record": {
+          "wins": 7,
+          "losses": 4,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 3,
+          "submission": 3,
+          "decision": 1,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Melissa Croden",
+            "eventName": "UFC Fight Night: de Ridder vs. Allen",
+            "eventHeadliners": "Reinier de Ridder vs Brendan Allen",
+            "date": "2025-10-18",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 3
+          },
+          {
+            "opponentName": "Luana Santos",
+            "eventName": "UFC Fight Night: Burns vs. Morales",
+            "eventHeadliners": "Gilbert Burns vs Michael Morales",
+            "date": "2025-05-17",
+            "result": "LOSS",
+            "method": "Submission - Keylock",
+            "round": 2
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4418809?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4418809/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/4418809/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/tainara-lisboa",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600054482?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600054482/competitions/401824840/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20251018",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053676?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053676/competitions/401766466/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20250517"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    },
+    {
+      "id": "ufcfn_moicano_nolan_20261031_02",
+      "order": 2,
+      "cardType": "PRELIMS",
+      "cardTypeLabel": "Prelims",
+      "weightClass": "Women's Strawweight (115 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "talita-alencar",
+        "firstName": "Talita",
+        "lastName": "Alencar",
+        "nickname": null,
+        "country": "Brazil",
+        "age": 36,
+        "record": {
+          "wins": 8,
+          "losses": 1,
+          "draws": 1,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 0,
+          "submission": 4,
+          "decision": 4,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Julia Polastri",
+            "eventName": "UFC Fight Night: Sterling vs. Zalal",
+            "eventHeadliners": "Aljamain Sterling vs Youssef Zalal",
+            "date": "2026-04-25",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Ariane Carnelossi",
+            "eventName": "UFC Fight Night: Garcia vs. Onama",
+            "eventHeadliners": "Steve Garcia vs David Onama",
+            "date": "2025-11-01",
+            "result": "WIN",
+            "method": "Submission - Rear Naked Choke",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5139556?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5139556/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5139556/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/talita-alencar",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058746?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058746/competitions/401867120/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260425",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600056045?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600056045/competitions/401830981/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20251101"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "piera-rodriguez",
+        "firstName": "Piera",
+        "lastName": "Rodriguez",
+        "nickname": null,
+        "country": "Venezuela",
+        "age": 33,
+        "record": {
+          "wins": 12,
+          "losses": 2,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 5,
+          "submission": 0,
+          "decision": 7,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Sam Hughes",
+            "eventName": "UFC Fight Night: Emmett vs. Vallejos",
+            "eventHeadliners": "Josh Emmett vs Kevin Vallejos",
+            "date": "2026-03-14",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Ketlen Souza",
+            "eventName": "UFC Fight Night: Taira vs. Park",
+            "eventHeadliners": "Tatsuro Taira vs HyunSung Park",
+            "date": "2025-08-02",
+            "result": "WIN",
+            "method": "Decision - Split",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4816066?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4816066/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/4816066/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/piera-rodriguez",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057364?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057364/competitions/401859218/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260314",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600054244?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600054244/competitions/401777988/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20250802"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    },
+    {
+      "id": "ufcfn_moicano_nolan_20261031_03",
+      "order": 3,
+      "cardType": "PRELIMS",
+      "cardTypeLabel": "Prelims",
+      "weightClass": "Middleweight (185 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "nick-klein",
+        "firstName": "Nick",
+        "lastName": "Klein",
+        "nickname": null,
+        "country": "United States",
+        "age": 31,
+        "record": {
+          "wins": 6,
+          "losses": 3,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 2,
+          "submission": 3,
+          "decision": 1,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Andrey Pulyaev",
+            "eventName": "UFC Fight Night: Taira vs. Park",
+            "eventHeadliners": "Tatsuro Taira vs HyunSung Park",
+            "date": "2025-08-02",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 2
+          },
+          {
+            "opponentName": "Mansur Abdul-Malik",
+            "eventName": "UFC Fight Night: Cejudo vs. Song",
+            "eventHeadliners": "Henry Cejudo vs Song Yadong",
+            "date": "2025-02-22",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 2
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5134399?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5134399/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5134399/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/nick-klein",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600054244?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600054244/competitions/401776616/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20250802",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600051445?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600051445/competitions/401755211/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20250222"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "joseph-kropschot",
+        "firstName": "Joseph",
+        "lastName": "Kropschot",
+        "nickname": null,
+        "country": "United States",
+        "age": 31,
+        "record": {
+          "wins": 9,
+          "losses": 3,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 2,
+          "submission": 6,
+          "decision": 1,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Jon Kunneman",
+            "eventName": "Dana White's Contender Series: Season 10, Week 1",
+            "eventHeadliners": "Anthony Wint vs Matt Adams",
+            "date": "2026-08-11",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "David Allakhverdiev",
+            "eventName": "LFA 226: Allakhverdiev vs. Kropschot",
+            "eventHeadliners": "David Allakhverdiev vs Joseph Kropschot",
+            "date": "2026-02-06",
+            "result": "WIN",
+            "method": "Submission (Rear Naked Choke)",
+            "round": 2
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4687604?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4687604/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/4687604/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/joseph-kropschot",
+          "https://www.sherdog.com/fighter/Joseph-Kropschot-248331",
+          "https://www.ufc.com/news/dana-whites-contender-series-season-10-week-1-results",
+          "https://www.lfa.com/lfa-226-live-results/",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600060732?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600060732/competitions/401903470/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260811",
+          "https://www.ufc.com/news/official-weigh-in-results-dana-whites-contender-series-season-10",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/lfa/events/600059193?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/lfa/events/600059193/competitions/401882035/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/lfa/scoreboard?dates=20260206"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    },
+    {
+      "id": "ufcfn_moicano_nolan_20261031_04",
+      "order": 4,
+      "cardType": "PRELIMS",
+      "cardTypeLabel": "Prelims",
+      "weightClass": "Middleweight (185 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "zachary-reese",
+        "firstName": "Zachary",
+        "lastName": "Reese",
+        "nickname": null,
+        "country": "United States",
+        "age": 32,
+        "record": {
+          "wins": 10,
+          "losses": 4,
+          "draws": 0,
+          "noContests": 1
+        },
+        "victoryBreakdown": {
+          "koTko": 5,
+          "submission": 3,
+          "decision": 2,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Ryan Gandra",
+            "eventName": "UFC 329: McGregor vs. Holloway 2",
+            "eventHeadliners": "Conor McGregor vs Max Holloway",
+            "date": "2026-07-11",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 1
+          },
+          {
+            "opponentName": "Michel Pereira",
+            "eventName": "UFC Fight Night: Strickland vs. Hernandez",
+            "eventHeadliners": "Sean Strickland vs Anthony Hernandez",
+            "date": "2026-02-21",
+            "result": "LOSS",
+            "method": "Decision - Split",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5143223?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5143223/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5143223/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/zachary-reese",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059148?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059148/competitions/401874061/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260711",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057329?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057329/competitions/401848748/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260221"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "mickey-gall",
+        "firstName": "Mickey",
+        "lastName": "Gall",
+        "nickname": null,
+        "country": "United States",
+        "age": 34,
+        "record": {
+          "wins": 7,
+          "losses": 7,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 0,
+          "submission": 6,
+          "decision": 1,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Ramiz Brahimaj",
+            "eventName": "UFC 309: Jones vs. Miocic",
+            "eventHeadliners": "Jon Jones vs Stipe Miocic",
+            "date": "2024-11-16",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 1
+          },
+          {
+            "opponentName": "Bassil Hafez",
+            "eventName": "UFC 302: Makhachev vs. Poirier",
+            "eventHeadliners": "Islam Makhachev vs Dustin Poirier",
+            "date": "2024-06-01",
+            "result": "LOSS",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/3960470?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/3960470/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/3960470/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/mickey-gall",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600049124?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600049124/competitions/401724935/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20241116",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600044413?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600044413/competitions/401652644/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20240601"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    },
+    {
+      "id": "ufcfn_moicano_nolan_20261031_05",
+      "order": 5,
+      "cardType": "PRELIMS",
+      "cardTypeLabel": "Prelims",
+      "weightClass": "Featherweight (145 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "julian-erosa",
+        "firstName": "Julian",
+        "lastName": "Erosa",
+        "nickname": null,
+        "country": "United States",
+        "age": 37,
+        "record": {
+          "wins": 31,
+          "losses": 13,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 12,
+          "submission": 14,
+          "decision": 5,
+          "other": 0,
+          "exceptionalNote": "Documented provider differences; see verification report. No arithmetic validation is bypassed."
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Lerryan Douglas",
+            "eventName": "UFC Fight Night: Adesanya vs. Pyfer",
+            "eventHeadliners": "Israel Adesanya vs Joe Pyfer",
+            "date": "2026-03-28",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 1
+          },
+          {
+            "opponentName": "Melquizael Costa",
+            "eventName": "UFC Fight Night: Burns vs. Morales",
+            "eventHeadliners": "Gilbert Burns vs Michael Morales",
+            "date": "2025-05-17",
+            "result": "LOSS",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/3955577?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/3955577/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/3955577/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/julian-erosa",
+          "https://www.sherdog.com/fighter/Julian-Erosa-71442",
+          "https://www.tapology.com/fightcenter/fighters/18497-julian-erosa",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057366?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057366/competitions/401860059/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260328",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053676?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053676/competitions/401769261/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20250517"
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [
+            "record.losses"
+          ],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "jeongyeong-lee",
+        "firstName": "JeongYeong",
+        "lastName": "Lee",
+        "nickname": null,
+        "country": "South Korea",
+        "age": 30,
+        "record": {
+          "wins": 11,
+          "losses": 3,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 4,
+          "submission": 3,
+          "decision": 4,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Daniel Santos",
+            "eventName": "UFC 315: Muhammad vs. Della Maddalena",
+            "eventHeadliners": "Belal Muhammad vs Jack Della Maddalena",
+            "date": "2025-05-10",
+            "result": "LOSS",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Hyder Amil",
+            "eventName": "UFC Fight Night: Lemos vs. Jandiroba",
+            "eventHeadliners": "Amanda Lemos vs Virna Jandiroba",
+            "date": "2024-07-20",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 1
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5068724?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5068724/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5068724/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/jeongyeong-lee",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053073?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053073/competitions/401772433/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20250510",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600046020?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600046020/competitions/401673519/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20240720"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    },
+    {
+      "id": "ufcfn_moicano_nolan_20261031_06",
+      "order": 6,
+      "cardType": "PRELIMS",
+      "cardTypeLabel": "Prelims",
+      "weightClass": "Welterweight (170 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "rodrigo-sezinando",
+        "firstName": "Rodrigo",
+        "lastName": "Sezinando",
+        "nickname": null,
+        "country": "Brazil",
+        "age": 28,
+        "record": {
+          "wins": 8,
+          "losses": 2,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 4,
+          "submission": 3,
+          "decision": 1,
+          "other": 0,
+          "exceptionalNote": "Documented provider differences; see verification report. No arithmetic validation is bypassed."
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Daniil Donchenko",
+            "eventName": "Noche UFC: Lopes vs. Silva",
+            "eventHeadliners": "Diego Lopes vs Jean Silva",
+            "date": "2025-09-13",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 1
+          },
+          {
+            "opponentName": "Jonathan Ramsay",
+            "eventName": "Samourai MMA 12: Battle of the North",
+            "eventHeadliners": "Rodrigo Sezinando vs Jonathan Ramsay",
+            "date": "2024-11-15",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 1
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5289853?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5289853/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5289853/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/rodrigo-sezinando",
+          "https://www.sherdog.com/fighter/Rodrigo-Sezinando-376658",
+          "https://www.tapology.com/fightcenter/fighters/274790-rodrigo-sezinando",
+          "https://boxing.nv.gov/uploadedFiles/boxingnvgov/content/results/2025_Results/TUF%20SEASON%2033%20MMA-MASTER%20RESULTS-REDACTED.pdf",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053664?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053664/competitions/401820047/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20250913",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/other/events/600054182?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/other/events/600054182/competitions/401778038/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20241115",
+          "https://www.sherdog.com/events/SMMA-Samourai-MMA-12-105245"
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [
+            "record.wins",
+            "victoryBreakdown.submission",
+            "victoryBreakdown.decision"
+          ],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "theodor-berggren",
+        "firstName": "Theodor",
+        "lastName": "Berggren",
+        "nickname": null,
+        "country": "Sweden",
+        "age": 26,
+        "record": {
+          "wins": 8,
+          "losses": 4,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 5,
+          "submission": 3,
+          "decision": 0,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Daniil Donchenko",
+            "eventName": "UFC Fight Night: Fiziev vs. Torres",
+            "eventHeadliners": "Rafael Fiziev vs Manuel Torres",
+            "date": "2026-06-27",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 2
+          },
+          {
+            "opponentName": "Abdulatip Samedov",
+            "eventName": "Fight Club Rush 27",
+            "eventHeadliners": "Theodor Berggren vs Abdulatip Samedov",
+            "date": "2026-02-07",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5085010?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5085010/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5085010/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/theodor-berggren",
+          "https://www.sherdog.com/fighter/Theodor-Berggren-347365",
+          "https://www.sherdog.com/events/FCR-27-Fight-Club-Rush-27-111102",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059254?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059254/competitions/401879380/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260627",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/other/events/600060390?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/other/events/600060390/competitions/401879379/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20260207"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    },
+    {
+      "id": "ufcfn_moicano_nolan_20261031_07",
+      "order": 7,
+      "cardType": "PRELIMS",
+      "cardTypeLabel": "Prelims",
+      "weightClass": "Featherweight (145 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "francis-marshall",
+        "firstName": "Francis",
+        "lastName": "Marshall",
+        "nickname": null,
+        "country": "United States",
+        "age": 27,
+        "record": {
+          "wins": 10,
+          "losses": 3,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 1,
+          "submission": 5,
+          "decision": 4,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Lucas Brennan",
+            "eventName": "UFC Fight Night: Sterling vs. Zalal",
+            "eventHeadliners": "Aljamain Sterling vs Youssef Zalal",
+            "date": "2026-04-25",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Erik Silva",
+            "eventName": "UFC Fight Night: Moreno vs. Kavanagh",
+            "eventHeadliners": "Brandon Moreno vs Lone'er Kavanagh",
+            "date": "2026-02-28",
+            "result": "WIN",
+            "method": "Submission - Rear Naked Choke",
+            "round": 1
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5060394?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5060394/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5060394/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/francis-marshall",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058746?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058746/competitions/401870029/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260425",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057330?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057330/competitions/401859459/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260228"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "dakota-hope",
+        "firstName": "Dakota",
+        "lastName": "Hope",
+        "nickname": null,
+        "country": "United States",
+        "age": 29,
+        "record": {
+          "wins": 11,
+          "losses": 2,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 5,
+          "submission": 1,
+          "decision": 5,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Kai Kamaka III",
+            "eventName": "UFC Fight Night: Moicano vs. Duncan",
+            "eventHeadliners": "Renato Moicano vs Chris Duncan",
+            "date": "2026-04-04",
+            "result": "LOSS",
+            "method": "Decision - Split",
+            "round": 3
+          },
+          {
+            "opponentName": "Mauricio Gomez",
+            "eventName": "Fury Fighting Championship 116",
+            "eventHeadliners": "Hector Saenz vs Yehia Riles",
+            "date": "2026-02-20",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 1
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4898914?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4898914/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/4898914/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/dakota-hope",
+          "https://www.sherdog.com/fighter/Dakota-Hope-293145",
+          "https://www.sherdog.com/events/Fury-FC-116-Fury-Fighting-Championship-116-Saenz-vs-Riles-111324",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058693?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058693/competitions/401867167/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260404",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/other/events/600059109?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/other/events/600059109/competitions/401867276/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/other/scoreboard?dates=20260220"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    },
+    {
+      "id": "ufcfn_moicano_nolan_20261031_08",
+      "order": 8,
+      "cardType": "MAIN_CARD",
+      "cardTypeLabel": "Main Card",
+      "weightClass": "Welterweight (170 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "jean-paul-lebosnoyani",
+        "firstName": "Jean-Paul",
+        "lastName": "Lebosnoyani",
+        "nickname": null,
+        "country": "United States",
+        "age": 27,
+        "record": {
+          "wins": 11,
+          "losses": 2,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 3,
+          "submission": 5,
+          "decision": 3,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "SeokHyeon Ko",
+            "eventName": "UFC Fight Night: Du Plessis vs. Usman",
+            "eventHeadliners": "Dricus Du Plessis vs Kamaru Usman",
+            "date": "2026-07-18",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Phil Rowe",
+            "eventName": "UFC Fight Night: Strickland vs. Hernandez",
+            "eventHeadliners": "Sean Strickland vs Anthony Hernandez",
+            "date": "2026-02-21",
+            "result": "WIN",
+            "method": "Decision - Split",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4629138?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4629138/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/4629138/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/jean-paul-lebosnoyani",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059599?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059599/competitions/401886726/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260718",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057329?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057329/competitions/401861554/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260221"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "farman-hasanov",
+        "firstName": "Farman",
+        "lastName": "Hasanov",
+        "nickname": null,
+        "country": "Azerbaijan",
+        "age": 31,
+        "record": {
+          "wins": 5,
+          "losses": 0,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 3,
+          "submission": 0,
+          "decision": 2,
+          "other": 0,
+          "exceptionalNote": "Documented provider differences; see verification report. No arithmetic validation is bypassed."
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Eric Nolan",
+            "eventName": "UFC Fight Night: Fiziev vs. Torres",
+            "eventHeadliners": "Rafael Fiziev vs Manuel Torres",
+            "date": "2026-06-27",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Abdurakhmon Fazilov",
+            "eventName": "LFA 223: Francischinelli vs. Piersma",
+            "eventHeadliners": "Luis Francischinelli vs Jonathan Piersma",
+            "date": "2025-11-21",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 1
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5350562?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5350562/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5350562/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/farman-hasanov",
+          "https://www.sherdog.com/fighter/Farman-Hasanov-410721",
+          "https://www.tapology.com/fightcenter/bouts/758479-iron-fist-vs-olimpia-farman-hasanov-vs-ibragim-sariev",
+          "https://www.lfa.com/lfa-223-live-results/",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059254?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059254/competitions/401872622/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260627",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/lfa/events/600059235?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/lfa/events/600059235/competitions/401872630/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/lfa/scoreboard?dates=20251121"
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [
+            "record.wins",
+            "victoryBreakdown.koTko"
+          ],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    },
+    {
+      "id": "ufcfn_moicano_nolan_20261031_09",
+      "order": 9,
+      "cardType": "MAIN_CARD",
+      "cardTypeLabel": "Main Card",
+      "weightClass": "Women's Bantamweight (135 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "yana-santos",
+        "firstName": "Yana",
+        "lastName": "Santos",
+        "nickname": null,
+        "country": "Russia",
+        "age": 36,
+        "record": {
+          "wins": 17,
+          "losses": 8,
+          "draws": 0,
+          "noContests": 1
+        },
+        "victoryBreakdown": {
+          "koTko": 7,
+          "submission": 1,
+          "decision": 9,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Macy Chiasson",
+            "eventName": "UFC 320: Ankalaev vs. Pereira 2",
+            "eventHeadliners": "Magomed Ankalaev vs Alex Pereira",
+            "date": "2025-10-04",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Miesha Tate",
+            "eventName": "UFC Fight Night: Sandhagen vs. Figueiredo",
+            "eventHeadliners": "Cory Sandhagen vs Deiveson Figueiredo",
+            "date": "2025-05-03",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/3154898?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/3154898/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/3154898/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/yana-santos",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600054473?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600054473/competitions/401808433/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20251004",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053455?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053455/competitions/401763454/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20250503"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "luana-santos",
+        "firstName": "Luana",
+        "lastName": "Santos",
+        "nickname": null,
+        "country": "Brazil",
+        "age": 26,
+        "record": {
+          "wins": 11,
+          "losses": 2,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 1,
+          "submission": 5,
+          "decision": 5,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Karol Rosa",
+            "eventName": "UFC Fight Night: Kape vs. Horiguchi 2",
+            "eventHeadliners": "Manel Kape vs Kyoji Horiguchi",
+            "date": "2026-06-20",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Melissa Croden",
+            "eventName": "UFC Fight Night: Royval vs. Kape",
+            "eventHeadliners": "Brandon Royval vs Manel Kape",
+            "date": "2025-12-13",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5110469?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5110469/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5110469/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/luana-santos",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059467?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059467/competitions/401873605/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260620",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600056266?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600056266/competitions/401833339/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20251213"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    },
+    {
+      "id": "ufcfn_moicano_nolan_20261031_10",
+      "order": 10,
+      "cardType": "MAIN_CARD",
+      "cardTypeLabel": "Main Card",
+      "weightClass": "Flyweight (125 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "ode-osbourne",
+        "firstName": "Ode'",
+        "lastName": "Osbourne",
+        "nickname": null,
+        "country": "Jamaica",
+        "age": 34,
+        "record": {
+          "wins": 13,
+          "losses": 9,
+          "draws": 0,
+          "noContests": 2
+        },
+        "victoryBreakdown": {
+          "koTko": 6,
+          "submission": 4,
+          "decision": 3,
+          "other": 0,
+          "exceptionalNote": "Documented provider differences; see verification report. No arithmetic validation is bypassed."
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Alibi Idiris",
+            "eventName": "UFC Fight Night: Strickland vs. Hernandez",
+            "eventHeadliners": "Sean Strickland vs Anthony Hernandez",
+            "date": "2026-02-21",
+            "result": "NO_CONTEST",
+            "method": "No Contest (Overturned)",
+            "round": 3
+          },
+          {
+            "opponentName": "Steve Erceg",
+            "eventName": "UFC Fight Night: Dolidze vs. Hernandez",
+            "eventHeadliners": "Roman Dolidze vs Anthony Hernandez",
+            "date": "2025-08-09",
+            "result": "LOSS",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4424224?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4424224/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/4424224/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/ode-osbourne",
+          "https://www.sherdog.com/fighter/Ode-Osbourne-137969",
+          "https://www.tapology.com/fightcenter/fighters/50154-ode-osbourne",
+          "https://ufcantidoping.com/news",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057329?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057329/competitions/401838568/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260221",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600054396?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600054396/competitions/401806679/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20250809"
+        ],
+        "verification": {
+          "status": "PARTIALLY_VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [
+            "victoryBreakdown.koTko",
+            "victoryBreakdown.submission"
+          ],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "cody-durden",
+        "firstName": "Cody",
+        "lastName": "Durden",
+        "nickname": null,
+        "country": "United States",
+        "age": 35,
+        "record": {
+          "wins": 18,
+          "losses": 11,
+          "draws": 1,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 6,
+          "submission": 6,
+          "decision": 6,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Alessandro Costa",
+            "eventName": "UFC 329: McGregor vs. Holloway 2",
+            "eventHeadliners": "Conor McGregor vs Max Holloway",
+            "date": "2026-07-11",
+            "result": "LOSS",
+            "method": "Submission - Rear Naked Choke",
+            "round": 2
+          },
+          {
+            "opponentName": "Jafel Filho",
+            "eventName": "UFC Fight Night: Sterling vs. Zalal",
+            "eventHeadliners": "Aljamain Sterling vs Youssef Zalal",
+            "date": "2026-04-25",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4686725?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/4686725/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/4686725/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/cody-durden",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059148?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600059148/competitions/401883599/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260711",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058746?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058746/competitions/401870028/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260425"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    },
+    {
+      "id": "ufcfn_moicano_nolan_20261031_11",
+      "order": 11,
+      "cardType": "CO_MAIN_EVENT",
+      "cardTypeLabel": "Co-Main Event",
+      "weightClass": "Welterweight (170 lbs)",
+      "scheduledRounds": 3,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "randy-brown",
+        "firstName": "Randy",
+        "lastName": "Brown",
+        "nickname": null,
+        "country": "Jamaica",
+        "age": 36,
+        "record": {
+          "wins": 20,
+          "losses": 8,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 8,
+          "submission": 5,
+          "decision": 7,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Kevin Holland",
+            "eventName": "UFC 327: Procházka vs. Ulberg",
+            "eventHeadliners": "Jiří Procházka vs Carlos Ulberg",
+            "date": "2026-04-11",
+            "result": "LOSS",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Gabriel Bonfim",
+            "eventName": "UFC Fight Night: Bonfim vs. Brown",
+            "eventHeadliners": "Gabriel Bonfim vs Randy Brown",
+            "date": "2025-11-08",
+            "result": "LOSS",
+            "method": "KO/TKO",
+            "round": 2
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/3960071?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/3960071/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/3960071/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/randy-brown",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058745?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058745/competitions/401862308/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260411",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600056160?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600056160/competitions/401828767/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20251108"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "jacobe-smith",
+        "firstName": "Jacobe",
+        "lastName": "Smith",
+        "nickname": null,
+        "country": "United States",
+        "age": 30,
+        "record": {
+          "wins": 13,
+          "losses": 0,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 10,
+          "submission": 1,
+          "decision": 2,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Bruce Whitehead",
+            "eventName": "UFC 332: Silva vs. Wang",
+            "eventHeadliners": "Natalia Silva vs Wang Cong",
+            "date": "2026-10-03",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 1
+          },
+          {
+            "opponentName": "Josiah Harrell",
+            "eventName": "UFC Fight Night: Strickland vs. Hernandez",
+            "eventHeadliners": "Sean Strickland vs Anthony Hernandez",
+            "date": "2026-02-21",
+            "result": "WIN",
+            "method": "KO/TKO",
+            "round": 1
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5149961?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5149961/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5149961/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/jacobe-smith",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600061182?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600061182/competitions/401926808/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20261003",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057329?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600057329/competitions/401861279/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260221"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    },
+    {
+      "id": "ufcfn_moicano_nolan_20261031_12",
+      "order": 12,
+      "cardType": "MAIN_EVENT",
+      "cardTypeLabel": "Main Event",
+      "weightClass": "Lightweight (155 lbs)",
+      "scheduledRounds": 5,
+      "isTitleFight": false,
+      "fighterA": {
+        "id": "renato-moicano",
+        "firstName": "Renato",
+        "lastName": "Moicano",
+        "nickname": null,
+        "country": "Brazil",
+        "age": 37,
+        "record": {
+          "wins": 21,
+          "losses": 7,
+          "draws": 1,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 2,
+          "submission": 11,
+          "decision": 8,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Chris Duncan",
+            "eventName": "UFC Fight Night: Moicano vs. Duncan",
+            "eventHeadliners": "Renato Moicano vs Chris Duncan",
+            "date": "2026-04-04",
+            "result": "WIN",
+            "method": "Submission - Rear Naked Choke",
+            "round": 2
+          },
+          {
+            "opponentName": "Beneil Dariush",
+            "eventName": "UFC 317: Topuria vs. Oliveira",
+            "eventHeadliners": "Ilia Topuria vs Charles Oliveira",
+            "date": "2025-06-28",
+            "result": "LOSS",
+            "method": "Decision - Unanimous",
+            "round": 3
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/3028863?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/3028863/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/3028863/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/renato-moicano",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058693?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058693/competitions/401861581/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260404",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053168?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600053168/competitions/401772650/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20250628"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      },
+      "fighterB": {
+        "id": "tom-nolan",
+        "firstName": "Tom",
+        "lastName": "Nolan",
+        "nickname": null,
+        "country": "Australia",
+        "age": 26,
+        "record": {
+          "wins": 11,
+          "losses": 1,
+          "draws": 0,
+          "noContests": 0
+        },
+        "victoryBreakdown": {
+          "koTko": 5,
+          "submission": 1,
+          "decision": 5,
+          "other": 0
+        },
+        "lastTwoFights": [
+          {
+            "opponentName": "Farès Ziam",
+            "eventName": "UFC Fight Night: Muhammad vs. Bonfim",
+            "eventHeadliners": "Belal Muhammad vs Gabriel Bonfim",
+            "date": "2026-06-06",
+            "result": "WIN",
+            "method": "Decision - Unanimous",
+            "round": 3
+          },
+          {
+            "opponentName": "Charlie Campbell",
+            "eventName": "UFC Fight Night: Ulberg vs. Reyes",
+            "eventHeadliners": "Carlos Ulberg vs Dominick Reyes",
+            "date": "2025-09-27",
+            "result": "WIN",
+            "method": "Submission - Rear Naked Choke",
+            "round": 1
+          }
+        ],
+        "sources": [
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5144007?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/athletes/5144007/records?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/athletes/5144007/eventlog?lang=en&region=us&limit=100",
+          "https://www.ufc.com/athlete/tom-nolan",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058949?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600058949/competitions/401870067/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260606",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600055226?lang=en&region=us",
+          "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600055226/competitions/401824584/status?lang=en&region=us",
+          "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20250927"
+        ],
+        "verification": {
+          "status": "VERIFIED",
+          "checkedAt": "2026-10-28",
+          "unresolved": [],
+          "report": "reports/ufcfn_moicano_nolan_20261031_VERIFICATION.json"
+        }
+      }
+    }
+  ]
+}

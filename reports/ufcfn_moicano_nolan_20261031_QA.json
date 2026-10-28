@@ -1,0 +1,88 @@
+{
+  "eventId": "ufcfn_moicano_nolan_20261031",
+  "checkedAt": "2026-10-28",
+  "candidateSha256": "a66060d3979d0548e99fd2f14f874a99b60fc89b215cfbd2b8dd9f51d0d30716",
+  "dataRepositoryTests": {
+    "passed": 23,
+    "failed": 0,
+    "command": "python -m unittest discover -s tools -p 'test_*.py' -v"
+  },
+  "androidRepositoryPythonValidatorTests": {
+    "passed": 7,
+    "failed": 0,
+    "command": "python -m unittest discover -s tools -p 'test_validate_event.py' -v"
+  },
+  "candidateDataValidator": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "candidateAndroidPythonValidator": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "androidExactProductionParser": {
+    "compilerVersion": "2.2.10",
+    "javaRuntime": "OpenJDK 17",
+    "targetBytecode": 11,
+    "jsonImplementation": "org.json:json:20240303",
+    "sourceCommit": "f6e7c2a384b7ccc11234adedd80f4112705e30d6",
+    "checksPassed": 9,
+    "checksFailed": 0,
+    "testHarness": "reports/AndroidCandidateSmoke.kt",
+    "output": [
+      "PASS: Exact candidate parses and validates as DRAFT",
+      "PASS: 12 bouts, 24 unique fighters, 48 histories and all event headliners",
+      "PASS: UFC/ESPN chronological card contract: seven prelims then five main bouts",
+      "PASS: Core data survives the existing parser/toJson round trip",
+      "PASS: Documented NC and professional-only history corrections are preserved",
+      "PASS: DRAFT fails publication status gate; in-memory published structural preflight passes",
+      "PASS: Wrong JSON numeric types are rejected by the actual parser",
+      "PASS: Missing historical headliners and duplicate fighter identities are rejected",
+      "PASS: Future history dates are rejected",
+      "PASS: 9 Android production parser/validator checks"
+    ],
+    "sources": {
+      "Fight-watch-companion/app/src/main/java/com/example/data/model/MmaModels.kt": "70a0a5f517697059dfe25a28c7de75e2eb440b959e938a4ef84853727d8873e5",
+      "Fight-watch-companion/app/src/main/java/com/example/data/parser/EventJsonParser.kt": "e7c03096b452c03f1e34b031219ab6bc08adf2e3e033771f5002f5560ed3c301",
+      "Fight-watch-companion/app/src/main/java/com/example/data/validator/EventValidator.kt": "6ff478a7f86219f97a71b5d0ccf3a5e676d4ad234177c0b1556abcf3e456f91c"
+    }
+  },
+  "schemaContract": {
+    "version": 1,
+    "standaloneJsonSchemaInRepository": false,
+    "validation": "Existing strict Python validators plus unchanged Kotlin EventJsonParser and EventValidator; no schema file or data architecture introduced."
+  },
+  "publicationSafety": {
+    "manifestSha256": "0612e864c9a30c60f450716e6df1c487245a34029e295742dbbc6d208c22a4f7",
+    "manifestRevision": 1,
+    "currentEventId": "ufc333_20261024",
+    "candidatePublished": false,
+    "ownerApprovalCreated": false,
+    "existingUfc333Preserved": true,
+    "realCandidateWithoutAcceptance": "Rejected: Unresolved source verification prevents publication",
+    "isolatedExistingPublicationAndRollbackTests": "Passed as part of the 23 data tests; these use synthetic test fixtures."
+  },
+  "limits": [
+    "The full Gradle/Robolectric and Android emulator/device suites were not run: this runtime has no Android SDK. No production APK was built or changed.",
+    "The live web application returned HTTP 403 to the read-only HTTP check; no live web UI preview is claimed.",
+    "Research metadata is intentionally not represented in the existing Android model/toJson. Keep the reviewed canonical JSON as publication input, not a client re-export."
+  ],
+  "finalCardCheck": {
+    "checkedAt": "2026-10-28T04:22:03.006097+00:00",
+    "cardUnchanged": true,
+    "sources": [
+      {
+        "url": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+        "checkedAt": "2026-10-28T04:22:02.337229+00:00",
+        "httpStatus": 200,
+        "sha256": "32b279db3ba79043016e9760e1f0c182d46e356904631d63977f8d49af3381ac"
+      },
+      {
+        "url": "https://sports.core.api.espn.com/v2/sports/mma/leagues/ufc/events/600061420?lang=en&region=us",
+        "checkedAt": "2026-10-28T04:22:02.861055+00:00",
+        "httpStatus": 200,
+        "sha256": "3d38bc268f2807528c95dba5328bc795ab367325faf86d30867e2b5bb5ceadfa"
+      }
+    ]
+  }
+}

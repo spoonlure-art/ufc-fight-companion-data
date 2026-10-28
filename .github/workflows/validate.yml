@@ -14,3 +14,5 @@ jobs:
         run: python tools/validate_event.py --root .
       - name: Validate proposed review draft
         run: python tools/validate_event.py --event drafts/UFC333_REVIEW_DRAFT.json
+      - name: Validate October 31 researched draft without publishing
+        run: python tools/validate_event.py --event drafts/ufcfn_moicano_nolan_20261031_DRAFT.json
